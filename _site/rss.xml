@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>JMO Digital</title>
+    <link>http://jmodigital.github.io</link>
+    <description>A network of JMOs interested in digital health and entrepreneurship</description>
+    <pubDate>Mon, 01 Feb 2016 21:18:00 +1100</pubDate>
+    <item>
+      <title>The Future of Pagers</title>
+      <link>http://jmodigital.github.io/future-of-pagers</link>
+      <description>Placeholder text
+
+
+</description>
+      <pubDate>Mon, 01 Feb 2016 21:18:00 +1100</pubDate>
+      <dc:date>2016-02-01T21:18:00+11:00</dc:date>
+    </item>
+    <item>
+      <title>PCEHR for JMOs</title>
+      <link>http://jmodigital.github.io/pcehr-for-jmos</link>
+      <description>I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation.
+
+</description>
+      <pubDate>Fri, 29 Jan 2016 21:18:00 +1100</pubDate>
+      <dc:date>2016-01-29T21:18:00+11:00</dc:date>
+    </item>
+    <item>
+      <title>Gameifying Discharge Summaries</title>
+      <link>http://jmodigital.github.io/gameifying-discharge-summaries</link>
+      <description>Placeholder text
+
+
+</description>
+      <pubDate>Sun, 10 Jan 2016 21:18:00 +1100</pubDate>
+      <dc:date>2016-01-10T21:18:00+11:00</dc:date>
+    </item>
+    <item>
+      <title>Digital Health Symposium</title>
+      <link>http://jmodigital.github.io/digital-health-symposium</link>
+      <description>As I engage in the so-called &quot;bull sessions&quot; around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the &quot;brethren&quot; think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.
+
+</description>
+      <pubDate>Wed, 09 Dec 2015 21:18:00 +1100</pubDate>
+      <dc:date>2015-12-09T21:18:00+11:00</dc:date>
+    </item>
+    <item>
+      <title>Nepean JMO Wiki</title>
+      <link>http://jmodigital.github.io/nepean-jmo-wiki</link>
+      <description>Placeholder text
+
+</description>
+      <pubDate>Sat, 10 Oct 2015 21:18:00 +1100</pubDate>
+      <dc:date>2015-10-10T21:18:00+11:00</dc:date>
+    </item>
+    <item>
+      <title>What if hospitals were run by Apple</title>
+      <link>http://jmodigital.github.io/what-if-hospitals-ran-like-apple</link>
+      <description>Placeholder text
+
+</description>
+      <pubDate>Thu, 01 Jan 2015 21:18:00 +1100</pubDate>
+      <dc:date>2015-01-01T21:18:00+11:00</dc:date>
+    </item>
+    <item>
+      <title>A Full and Comprehensive Style Test</title>
+      <link>http://jmodigital.github.io/a-full-and-comprehensive-style-test</link>
+      <description>&lt;p&gt;This is just an &lt;em&gt;ipsis verbis&lt;/em&gt; copy of the first example running on the &lt;a href=&quot;http://demo.ghost.io&quot;&gt;Ghost Demo&lt;/a&gt;. This shows how you can use html styling to achieve your hopes.&lt;/p&gt;
+
+</description>
+      <pubDate>Sat, 27 Sep 2014 20:18:00 +1000</pubDate>
+      <dc:date>2014-09-27T20:18:00+10:00</dc:date>
+    </item>
+    <dc:date>2016-02-01T21:18:00+11:00</dc:date>
+  </channel>
+</rss>

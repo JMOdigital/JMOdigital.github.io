@@ -1,0 +1,32 @@
+
+-   name: Robert Rawlins
+    email: robert@sorryapp.com
+    web: http://twitter.com/sirrawlins
+    nickname: 'robert'
+    bio: 'Resident @ RPA with a background in software dev'
+    location: 'Sydney, Australia'
+    url: 'http://biomadeira.github.io/jasper/'
+    image: 'assets/images/casper.png'
+    
+-   name: Robin Geall
+    email: robert@sorryapp.com
+    web: http://twitter.com/sirrawlins
+    nickname: 'robin'
+    bio: 'Resident @ Nepean with a background in software dev'
+    location: 'Melbourne, Australia'
+    url: 'http://biomadeira.github.io/jasper/'
+    image: 'assets/images/casper.png'
+    
+-   name: Martin Seneviratne
+    email: martin@wardconnect.com.au
+    nickname: 'martin'
+    bio: 'Resident @ RPA with a background in software dev'
+    location: 'Sydney, Australia'
+    image: 'assets/images/casper.png'
+    
+-   name: Mark S
+    email: mark@something.com
+    nickname: 'mark'
+    bio: 'Placeholder text'
+    location: 'Melbourne, Australia'
+    image: 'assets/images/casper.png'

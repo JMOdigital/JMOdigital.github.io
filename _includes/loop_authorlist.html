@@ -1,0 +1,18 @@
+
+    <!-- This is the post loop - each post will be output using this markup -->
+    {% for author in site.data.authors %}
+    <article class="post">
+        <header class="post-header">
+            <h2 class="post-title"><a href="{{site.baseurl}}author/{{author.nickname}}">{{ author.name }}</a></h2>
+        </header>
+        <section class="post-excerpt">
+            <p>{{ author.bio | strip_html | truncatewords: 40 }} <a class="read-more" href="{{ site.baseurl }}{{ post.url | remove: '/' }}">&raquo;</a></p>
+        </section>
+        <footer class="post-meta">
+            <img class="author-thumb-large" src="{{ site.baseurl }}{{ author.image }}" alt="Author image" nopin="nopin" />
+            <!-- author -->
+            <a href='{{ site.baseurl }}author/{{author.nickname}}'>{{author.location}}</a>
+        </footer>
+    </article>
+     <hr>
+    {% endfor %}
