@@ -34,7 +34,7 @@ current: author
     	{%endfor%}
         {% if author.image %}
         <figure class="author-image">
-            <div class="img" style="background-image: url({{ site.baseurl }}{{ site.image }})"><span class="hidden">{{ site.author }}'s Picture</span></div>
+            <div class="img" style="background-image: url({{ site.baseurl }}{{ author.image }})"><span class="hidden">{{ site.author }}'s Picture</span></div>
         </figure>
         {% endif %}
         <h1 class="author-title">{{ author.name }}</h1>

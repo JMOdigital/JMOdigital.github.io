@@ -1,12 +1,12 @@
 # Jykell configuration
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 paginate: 5
 language: 'en-uk'
 
 # Website info
 name: 'JMO Digital'
-description: "A network of JMOs interested in digital health and entrepreneurship"
+description: "A network of training clinicians interested in digital health and entrepreneurship"
 
 # Author's info
 author: 'Martin Seneviratne'
@@ -14,10 +14,10 @@ author: 'Martin Seneviratne'
 nickname: martin
 bio: 'Resident @ RPA with a background in software dev'
 location: 'Sydney, Australia'
-url: 'http://jmodigital.github.io'
+url: 'http://jmodigital.com'
 image: 'assets/images/casper.png'
 
-short_url: 'jmodigital.github.io/'
+short_url: 'jmodigital.com/'
 google_analytics: UA-74047266-1
 disqus: jmodigital
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)

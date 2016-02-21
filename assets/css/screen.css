@@ -691,12 +691,11 @@ body.nav-opened .nav {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
-    right: 30px;
+    position: relative;
+    bottom: 10px;
     height: 38px;
-    padding: 0 20px;
+    width: 100%;
+    padding: 0 0px;
     color: #111 !important; /* Overides `.nav a:link, .nav a:visited` colour */
     text-align: center;
     font-size: 12px;
@@ -711,6 +710,55 @@ body.nav-opened .nav {
 .subscribe-button:before {
     font-size: 9px;
     margin-right: 6px;
+}
+ 
+div.wrap {
+  width: 80%;
+  position: relative;
+  bottom: -140px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  vertical-align: middle;
+}
+
+div.wrap div {
+  position: relative;
+  margin: 50px 0;
+  height: 30px;
+}
+
+label {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  font-family: "Open Sans", serif;
+  color: white;
+  margin: 10px;
+  background-color: #111;
+  padding: 0 5px;
+  -webkit-transition: top .2s ease-in-out, 
+                      font-size .2s ease-in-out;
+  transition: top .2s ease-in-out, 
+              font-size .2s ease-in-out;
+}
+
+.active {
+  top: -25px;
+  font-size: 12px;
+}
+
+input[type=text] {
+  width: 80%;
+  padding: 20px;
+  border: 1px solid gray;
+  font-size: 12px;
+  font-family: "Open Sans", serif;
+  background-color: #111;
+  color: white;
+} 
+
+input[type=text]:focus {
+  outline: none;
 }
 
 
@@ -965,6 +1013,7 @@ body:not(.post-template) .post-title {
     margin: 1.75rem 0 0 0;
     font-family: "Open Sans", sans-serif;
     font-size: 1.5rem;
+    padding-top: 10px;
     line-height: 2.2rem;
     color: #9EABB3;
 }
@@ -978,8 +1027,8 @@ body:not(.post-template) .post-title {
 }
 
 .author-thumb-large {
-    width: 80px;
-    height: 80px;
+    width: 95px;
+    height: 95px;
     float: right;
     margin-right: 0px;
     margin-top: -100px;
@@ -1785,7 +1834,7 @@ body:not(.post-template) .post-title {
     }
 
     .blog-logo img {
-        height: 30px;
+        height: 50px;
     }
 
     .menu-button {
