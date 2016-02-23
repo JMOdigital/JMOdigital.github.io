@@ -9,13 +9,15 @@ current: tag
 
 <!-- < dynamically overriding backgrounds for tags as well as descriptions -->
 {% if page.url contains 'rpa' %}
-   {% assign tag_description='Royal Prince Alfred Hospital - Innovations Group' %}
    {% assign new_cover='assets/images/cover_rpa.jpg' %}
 {% elsif page.url contains 'bankstown' %}
     {% assign tag_description='Bankstown Tech Interest Group' %}
     {% assign new_cover='assets/images/cover1.jpg' %}
 {% elsif page.url contains 'nepean' %}
     {% assign new_cover='assets/images/cover_nepean.png' %}
+{% elsif page.url contains 'coding' %}
+    {% assign new_cover='assets/images/cover10.jpg' %}
+    {% assign tag_description='Programming tutorials for the tech-savvy medic' %}
 {% elsif page.url contains 'ideas' %}
     {% assign new_cover='assets/images/cover8.jpg' %}
     {% assign tag_description='Virtual brainstorming' %}

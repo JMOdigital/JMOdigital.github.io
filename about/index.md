@@ -17,13 +17,7 @@ ___
 
 ##Founding Team
 
-+ Martin Seneviratne
-
-+ Eric Li
-
-+ Mark Sanatamaria
-
-+ Mike Bainbridge
++ [Martin Seneviratne]({{site.baseurl}}author/martin)
 
 
 ___

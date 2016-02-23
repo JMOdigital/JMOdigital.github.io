@@ -18,7 +18,7 @@
     image: 'assets/images/casper.png'
     
 -   name: Martin Seneviratne
-    email: martin@wardconnect.com.au
+    email: '@martin_sen'
     nickname: 'martin'
     bio: 'Resident @ RPA with a background in software dev'
     location: 'Sydney, Australia'
@@ -30,3 +30,10 @@
     bio: 'Placeholder text'
     location: 'Melbourne, Australia'
     image: 'assets/images/casper.png'
+    
+-   name: Arran Schlosberg
+    email: '@arranschlosberg'
+    nickname: 'arran'
+    bio: 'Genetic Pathology registrar with a background in software development and data analytics. Currently doing a Masters in genomics at Cambridge.'
+    location: 'Cambridge, UK'
+    image: 'assets/images/author_pics/arran.jpg'
