@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>jmodigital.com/</title>
+   
+   <link>http://jmodigital.com</link>
+   <description>A network of training clinicians interested in digital health and entrepreneurship</description>
+   <language>en-uk</language>
+   <managingEditor> Martin Seneviratne</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>How to safeguard the privacy of Australian health data in the cloud</title>
+	  <link>//privacy-health-data</link>
+	  <author>Martin Seneviratne</author>
+	  <pubDate>2016-02-22T21:18:00+11:00</pubDate>
+	  <guid>//privacy-health-data</guid>
+	  <description><![CDATA[
+	     <p>I once sat across from a doctor and stated that the only safe way to manage archival health data is in the cloud. As a consultant physician, I did not expect her retort to be <em>but what about the Patriot Act?</em> The Patriot Act is a now-replaced piece of American legislation that had far-reaching effects, with the <a href="http://www.theguardian.com/technology/2015/sep/09/microsoft-court-case-hotmail-ireland-search-warrant">US Department of Justice laying claim to data stored by American companies?even overseas</a>.</p>
+
+<p>In Australia we are bound by myriad privacy acts spanning States, Territories and the Commonwealth, and no more resoundingly can their implications be felt than in the health community. And rightly so. We are privy to sensitive information, the disclosure of which can range from banal to destructive to the individual. The impact of even that which we see as trivial, through desensitising exposure, is highlighted by television such as <em>Embarrassing Bodies</em>.</p>
+
+<p>My spy-wary conversationalist sparked a fervent exploration on my part. From a technical standpoint I was certain that prior encryption of health data would suffice for compliance with privacy legislation. But what about the Patriot Act?</p>
+
+<p>Australian privacy requirements are based upon what are known as &quot;privacy principles&quot; - see this <a href="https://www.oaic.gov.au/agencies-and-organisations/guides/app-quick-reference-tool">quick reference guide</a>. Beyond the protection of data from unauthorised disclosure or modification, we have an obligation to adequately protect against loss of data. I argue that the most feasible means by which we can quantify the risk of data loss is in the cloud.</p>
+
+<p>Cloud storage vendors are akin to insurance companies. They, respectively, spread the risk of data and financial losses across their pool of clients. When Amazon advertises 11-nines data integrity (1-in-100-billion probability of loss) it is founded in historical data much as that used by an actuary in determining your insurance premium [1]. Can any Australian hospitals provide this same level of precision?</p>
+
+<p>Even with such motivation to migrate data to the cloud we are still met with security concerns. Borrowing from guidelines published by the Australian Signals Directorate - the agency tasked with our Government&#39;s information security - I have produced a <a href="http://www.slideshare.net/ArranSchlosberg/data-security-in-genomics-a-review-of-australian-privacy-requirements-and-their-relation-to-cryptography-in-data-storage-57979838">primer in cryptography with a focus on compliance with the specific wording of Australian privacy legislation</a>. Despite the genomic bent, it is relevant to every Australian tasked with the protection of health data.</p>
+
+<hr>
+
+<p><em>Disclaimer: I am not a lawyer and neither this post nor the publication should be construed as legal advice. The purpose of this text is to provide the reader with an adequate technical understanding of data security such that they can, in consultation with their lawyer, make informed decisions regarding data-management policy.</em></p>
+
+<p><sub><em>[1] Amazon Web Services Inc. &quot;Amazon Simple Storage Service (S3) - Object Storage&quot;. Available from: https://aws.amazon.com/s3/. [Last accessed on 2016 Feb 7].</em></sub></p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>

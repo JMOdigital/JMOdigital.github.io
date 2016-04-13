@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>JMO Digital</title>
+    <link>http://jmodigital.com</link>
+    <description>A network of training clinicians interested in digital health and entrepreneurship</description>
+    <pubDate>Wed, 13 Apr 2016 20:18:00 +1000</pubDate>
+    <item>
+      <title>Tablet-based health interventions</title>
+      <link>http://jmodigital.com/ehealth-initiatives-orange</link>
+      <description>Following Martin's [article](/what-if-hospitals-ran-like-apple) last month comparing the genius bar at Apple to a clinicians diagnostic algorithm, it's appropriate to bring to light the recent e-prospects of Orange Health Service. Never mind that we may be 4 hours into the wild western NSW; the new Orange Hospital, which was completed in 2011, is at the forefront of enthusiasm for innovation in medical technology. 
+
+</description>
+      <pubDate>Wed, 13 Apr 2016 20:18:00 +1000</pubDate>
+      <dc:date>2016-04-13T20:18:00+10:00</dc:date>
+    </item>
+    <item>
+      <title>Wearables to detect pathology - Can that FitBit tell me something useful?</title>
+      <link>http://jmodigital.com/wearables-to-detect-pathology</link>
+      <description>Emergency Department: A Woman in her mid 30's presented following an episode of severe dizziness in the morning associated with nausea and lightheadedness, which began when she woke up in bed. It sounded like fairly classic Benign Paroxysmal Positional Vertigo (BPPV) but she mentioned that and irregular heartbeat had been detected during her pregnancy. ECG was normal, and long series of questions established that this most likely occasional benign ectopic - she was reassured.
+ 
+She was wearing a wrist based fitness tracker - perhaps one with heart rate monitoring (HRM). Could I have saved time just by looking at her smartphone could have allayed my fears about her having an arrhythmia a lot faster?
+ 
+The market for wrist based activity monitors has been booming in recent years and is set to be worth 25 billion by 2019, with over 250 million units being sold according to industry analyst [CCS insight](http://www.ccsinsight.com/press/company-news/2332-wearables-market-to-be-worth-25-billion-by-2019-reveals-ccs-insight). Over half of the units will be activity trackers such as Fitbit, Jawbone, Garmin Vivofit and around a third will be Smartwatches such as the Apple Watch or the Samsung Gear. [Most analysis](http://jama.jamanetwork.com/article.aspx?articleid=2089651) so far has focused on whether these devices will actually motivate more active lifestyles or will go the way of most health related New Year's resolutions - initial excitement followed by a steady return to business as usual.
+
+</description>
+      <pubDate>Tue, 08 Mar 2016 21:18:00 +1100</pubDate>
+      <dc:date>2016-03-08T21:18:00+11:00</dc:date>
+    </item>
+    <item>
+      <title>How to safeguard the privacy of Australian health data in the cloud</title>
+      <link>http://jmodigital.com/privacy-health-data</link>
+      <description>I once sat across from a doctor and stated that the only safe way to manage archival health data is in the cloud. As a consultant physician, I did not expect her retort to be *but what about the Patriot Act?* The Patriot Act is a now-replaced piece of American legislation that had far-reaching effects, with the [US Department of Justice laying claim to data stored by American companies?even overseas](http://www.theguardian.com/technology/2015/sep/09/microsoft-court-case-hotmail-ireland-search-warrant).
+
+</description>
+      <pubDate>Mon, 22 Feb 2016 21:18:00 +1100</pubDate>
+      <dc:date>2016-02-22T21:18:00+11:00</dc:date>
+    </item>
+    <item>
+      <title>Building a health calculator with Google Polymers</title>
+      <link>http://jmodigital.com/polymer-coding-tutorial</link>
+      <description>&gt; Adapted from the *Coding 101* workshop delivered at the 2015 Future Health Leaders Conference in Sydney. 
+&gt; Thanks to Kevin Gleason (@kevinagleason) for his Polymer ToDo tutorial, which provided some inspiration. Some of the app layouts have been drawn from his code under the provisions of the MIT license. 
+
+</description>
+      <pubDate>Mon, 22 Feb 2016 21:18:00 +1100</pubDate>
+      <dc:date>2016-02-22T21:18:00+11:00</dc:date>
+    </item>
+    <item>
+      <title>The Nepean JMO Wiki</title>
+      <link>http://jmodigital.com/nepean-wiki</link>
+      <description>&gt;  **Eric Li** from **The Nepean Technology Working Group** describes the development of the JMO handover wiki.
+
+</description>
+      <pubDate>Tue, 02 Feb 2016 21:18:00 +1100</pubDate>
+      <dc:date>2016-02-02T21:18:00+11:00</dc:date>
+    </item>
+    <item>
+      <title>What if hospitals were run by Apple</title>
+      <link>http://jmodigital.com/what-if-hospitals-ran-like-apple</link>
+      <description>&gt;  The experience of presenting to the Apple Store Genius Bar might carry some important lessons for hospital workflows. *Martin Seneviratne* explains why.
+
+</description>
+      <pubDate>Mon, 01 Feb 2016 21:18:00 +1100</pubDate>
+      <dc:date>2016-02-01T21:18:00+11:00</dc:date>
+    </item>
+    <item>
+      <title>The Future of Pagers</title>
+      <link>http://jmodigital.com/the-future-of-pagers</link>
+      <description>Placeholder text test
+
+
+</description>
+      <pubDate>Mon, 01 Feb 2016 21:18:00 +1100</pubDate>
+      <dc:date>2016-02-01T21:18:00+11:00</dc:date>
+    </item>
+    <item>
+      <title>PCEHR for JMOs</title>
+      <link>http://jmodigital.com/pcehr-for-jmos</link>
+      <description>Placeholder text 
+
+
+</description>
+      <pubDate>Fri, 29 Jan 2016 21:18:00 +1100</pubDate>
+      <dc:date>2016-01-29T21:18:00+11:00</dc:date>
+    </item>
+    <item>
+      <title>Gameifying Discharge Summaries</title>
+      <link>http://jmodigital.com/gameifying-discharge-summaries</link>
+      <description>Placeholder text
+
+
+</description>
+      <pubDate>Sun, 10 Jan 2016 21:18:00 +1100</pubDate>
+      <dc:date>2016-01-10T21:18:00+11:00</dc:date>
+    </item>
+    <item>
+      <title>Digital Health Symposium</title>
+      <link>http://jmodigital.com/digital-health-symposium</link>
+      <description>Placeholder text 
+
+
+</description>
+      <pubDate>Wed, 09 Dec 2015 21:18:00 +1100</pubDate>
+      <dc:date>2015-12-09T21:18:00+11:00</dc:date>
+    </item>
+    <item>
+      <title>Nepean JMO Wiki</title>
+      <link>http://jmodigital.com/nepean-jmo-wiki</link>
+      <description>Placeholder text
+
+</description>
+      <pubDate>Sat, 10 Oct 2015 21:18:00 +1100</pubDate>
+      <dc:date>2015-10-10T21:18:00+11:00</dc:date>
+    </item>
+    <item>
+      <title>A Full and Comprehensive Style Test</title>
+      <link>http://jmodigital.com/a-full-and-comprehensive-style-test</link>
+      <description>&lt;p&gt;This is just an &lt;em&gt;ipsis verbis&lt;/em&gt; copy of the first example running on the &lt;a href=&quot;http://demo.ghost.io&quot;&gt;Ghost Demo&lt;/a&gt;. This shows how you can use html styling to achieve your hopes.&lt;/p&gt;
+
+</description>
+      <pubDate>Sat, 27 Sep 2014 20:18:00 +1000</pubDate>
+      <dc:date>2014-09-27T20:18:00+10:00</dc:date>
+    </item>
+    <dc:date>2016-04-13T20:18:00+10:00</dc:date>
+  </channel>
+</rss>

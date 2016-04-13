@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>jmodigital.com/</title>
+   
+   <link>http://jmodigital.com</link>
+   <description>A network of training clinicians interested in digital health and entrepreneurship</description>
+   <language>en-uk</language>
+   <managingEditor> Martin Seneviratne</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Wearables to detect pathology - Can that FitBit tell me something useful?</title>
+	  <link>//wearables-to-detect-pathology</link>
+	  <author>boris</author>
+	  <pubDate>2016-03-08T21:18:00+11:00</pubDate>
+	  <guid>//wearables-to-detect-pathology</guid>
+	  <description><![CDATA[
+	     <p>Emergency Department: A Woman in her mid 30&#39;s presented following an episode of severe dizziness in the morning associated with nausea and lightheadedness, which began when she woke up in bed. It sounded like fairly classic Benign Paroxysmal Positional Vertigo (BPPV) but she mentioned that and irregular heartbeat had been detected during her pregnancy. ECG was normal, and long series of questions established that this most likely occasional benign ectopic - she was reassured.</p>
+
+<p>She was wearing a wrist based fitness tracker - perhaps one with heart rate monitoring (HRM). Could I have saved time just by looking at her smartphone could have allayed my fears about her having an arrhythmia a lot faster?</p>
+
+<p>The market for wrist based activity monitors has been booming in recent years and is set to be worth 25 billion by 2019, with over 250 million units being sold according to industry analyst <a href="http://www.ccsinsight.com/press/company-news/2332-wearables-market-to-be-worth-25-billion-by-2019-reveals-ccs-insight">CCS insight</a>. Over half of the units will be activity trackers such as Fitbit, Jawbone, Garmin Vivofit and around a third will be Smartwatches such as the Apple Watch or the Samsung Gear. <a href="http://jama.jamanetwork.com/article.aspx?articleid=2089651">Most analysis</a> so far has focused on whether these devices will actually motivate more active lifestyles or will go the way of most health related New Year&#39;s resolutions - initial excitement followed by a steady return to business as usual.</p>
+
+<p>Providing useful information for health professionals, is an even larger challenge for these devices. For that they need to measure something meaningful, be reliable in that measurement, and make that information accessible within the pressured timeframe of an emergency room or general practice or any other consultation.</p>
+
+<h4>(Health) data, data everywhere? but is any of it useful?</h4>
+
+<p>There is more data in the world than we know what to do with, and <a href="http://www.economist.com/node/15557443">health is no exception</a>. Importantly, my brain is not a Google algorithm, it cannot sort through terabytes of information in seconds, and decide as it sorts what information might be useful. Instead I need to consciously evaluate each variable. Take daily step count, this might be useful in an end-stage COPD or CCF patient to show a trend for loss of exercise tolerance, however it tells me nothing about whether the young woman in front of me has been having arrhythmias or not. Even a heart rate recording may not tell me that much - tachycardia in response to dizziness and nausea, unless extreme, isn&#39;t particularly exciting.</p>
+
+<h4>Garbage in, garbage out.</h4>
+
+<p>We all know this old research adage. An recent <a href="http://jama.jamanetwork.com/article.aspx?articleid=2108876">article</a> in JAMA in 2015 found that many wrist based wearable devices were less accurate than phone based pedometers in their calculation of steps. The article was <a href="http://www.wired.com/2015/03/fitness-tracking-test/">criticised</a> for testing outdated models. But the concern still remains, would you bother evaluating information you don&#39;t even trust. As a recent <a href="%5Bhttp://www.ncbi.nlm.nih.gov/pubmed/26684758">systematic review</a> showed very few variables other than steps have been evaluated scientifically. The non-scientific evaluations of some technologies such as wrist based heart rate monitors haven&#39;t been particularly reassuring - with 50% error rates being reported with <a href="http://www.cnet.com/au/news/how-accurate-are-wristband-heart-rate-monitors/">some devices</a>.</p>
+
+<h4>Is it worth my time?</h4>
+
+<p>A Pew survey indicates that many people who track health data, don&#39;t actually share it with anyone (http://www.pewinternet.org/2013/01/28/tracking-for-health). Part of this technological issue, several apps now store their data on a health cloud, and the patient can authorize health professionals to see their data through a login system. But partly it&#39;s just a question of time. Unless a device has a way of identifying variables or episodes that a health professional may consider looking at, the time taken to dig through the data may not be worth it. This is the reason implantable loop recorders, which have been in use for several years now, come with an activator which patients press when they have symptoms (http://emedicine.medscape.com/article/1920236-overview).</p>
+
+<h4>Dedicated health devices as the answer?</h4>
+
+<p>The mHealth Screening to Prevent Strokes (<a href="https://www.clinicaltrials.gov/ct2/show/NCT02506244">mSToPS</a>) study is currently evaluating a stick-on patch to identify atrial fibrillation in high risk patients. This is a dedicated piece of health technology, not a general consumer item with a health label attached. Perhaps in 2020 smartwatches will record and integrate data in a reliable and usable way, which reassures me that the young woman in front of me hasn&#39;t been experiencing sinister arrhythmias. For now I can ignore that strap around her wrist, ask a few more dedicated questions and evaluate her in the usual way.</p>
+
+<hr>
+
+<p><sub>Image courtesy of Intel Free Press under the <a href="https://creativecommons.org/licenses/by-sa/2.0/legalcode">CC BY-SA 2.0</a> license.</sub></p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>

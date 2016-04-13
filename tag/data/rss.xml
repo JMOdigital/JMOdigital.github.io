@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>jmodigital.com/</title>
+   
+   <link>http://jmodigital.com</link>
+   <description>A network of training clinicians interested in digital health and entrepreneurship</description>
+   <language>en-uk</language>
+   <managingEditor> Martin Seneviratne</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Tablet-based health interventions</title>
+	  <link>//ehealth-initiatives-orange</link>
+	  <author>Martin Seneviratne</author>
+	  <pubDate>2016-04-13T20:18:00+10:00</pubDate>
+	  <guid>//ehealth-initiatives-orange</guid>
+	  <description><![CDATA[
+	     <p>Following Martin&#39;s <a href="/what-if-hospitals-ran-like-apple">article</a> last month comparing the genius bar at Apple to a clinicians diagnostic algorithm, it&#39;s appropriate to bring to light the recent e-prospects of Orange Health Service. Never mind that we may be 4 hours into the wild western NSW; the new Orange Hospital, which was completed in 2011, is at the forefront of enthusiasm for innovation in medical technology. </p>
+
+<p>I may be speaking for a select few, or perhaps the niche personality types of JMOs, but I feel that in today&#39;s society, the marriage of slight OCD traits and a digital addiction result in an aggressive intolerance to inefficiency.  These first-world frustrations are exemplified by the fact that we live in a digital world, yet once you walk through the doors of a hospital, you are entering the mid 90s.  A boss tells a registrar a job, who then tells the junior, who then writes that job on a piece of paper, who then completes the job, only to then contact the registrar who then contacts the boss to confirm the job has been completed. It seems comical, not to mention the safety issues and discrepancies of the Chinese-whispers style communication, or the daily issue of JMOs dropping their lists in the carpark, leaving them at the local cafe, or even worse, in the toilet.</p>
+
+<p>In 2015 the Orange executive launched a Dragon&#39;s Den competition that enabled JMOs to contribute their ideas to a panel and be awarded funding for small projects. JMOs in OHS proposed 2 concepts: iPads on the wards for task allocation, and the creation of more medical apps. We proposed to equip ward based JMOs with tablets loaded with an application for task management, which is securely backed up and replaced the need for paper lists. The concept is that nursing and allied staff will have access to this list, and can add tasks as appropriate. </p>
+
+<p>The power of this solution is in reliability - paper lists and the use of either whiteboards or informal verbal handover of tasks leads to many mistakes. Furthermore, transitioning to an electronic format might also help remedy our perhaps pathological 21st century aversion to inefficiencies. </p>
+
+<p>But it doesn&#39;t end there. Imagine the potential for patient education. DrawMD - a well used app in the US - could allow a cardiologist to explain atherosclerosis to patients with diagrams, or allow a patient to view their angiogram results at the bedside with the physician explaining. </p>
+
+<p><img src="/assets/images/drawMD.jpg" alt="Cardiologist explaining concept to a patient using DrawMD" title="DrawMD"></p>
+
+<p>By way of example, in 2015 OneView launched a tablet-based patient portal in Epworth Eastern Hospital, Melbourne. Their nurse rounding application has resulted in a 6% decrease in pressure ulcers and a 4% decrease in patient falls. Meanwhile patients prepare for discharge with video education, goal completion and real-time collaboration with their care teams, resulting in 6% decrease in length of stay. [1]</p>
+
+<p>You are probably thinking: this all sounds fairly simple! And not exactly ground breaking... However there are critical barriers in terms of change management and data security that need to be overcome. But can the medical world really resist this digital storm?</p>
+
+<hr>
+
+<p><sub><em>[1] Kinmont, K. Epworth Eastern Hospital Realises Improved Outcomes with Oneview Interactive Patient Care Technology Solutions. Oct 21, 2015. News, Available from; Oneview Blog: http://www.oneviewhealthcare.com/epworth-improved-outcomes/</em></sub></p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Wearables to detect pathology - Can that FitBit tell me something useful?</title>
+	  <link>//wearables-to-detect-pathology</link>
+	  <author>Martin Seneviratne</author>
+	  <pubDate>2016-03-08T21:18:00+11:00</pubDate>
+	  <guid>//wearables-to-detect-pathology</guid>
+	  <description><![CDATA[
+	     <p>Emergency Department: A Woman in her mid 30&#39;s presented following an episode of severe dizziness in the morning associated with nausea and lightheadedness, which began when she woke up in bed. It sounded like fairly classic Benign Paroxysmal Positional Vertigo (BPPV) but she mentioned that and irregular heartbeat had been detected during her pregnancy. ECG was normal, and long series of questions established that this most likely occasional benign ectopic - she was reassured.</p>
+
+<p>She was wearing a wrist based fitness tracker - perhaps one with heart rate monitoring (HRM). Could I have saved time just by looking at her smartphone could have allayed my fears about her having an arrhythmia a lot faster?</p>
+
+<p>The market for wrist based activity monitors has been booming in recent years and is set to be worth 25 billion by 2019, with over 250 million units being sold according to industry analyst <a href="http://www.ccsinsight.com/press/company-news/2332-wearables-market-to-be-worth-25-billion-by-2019-reveals-ccs-insight">CCS insight</a>. Over half of the units will be activity trackers such as Fitbit, Jawbone, Garmin Vivofit and around a third will be Smartwatches such as the Apple Watch or the Samsung Gear. <a href="http://jama.jamanetwork.com/article.aspx?articleid=2089651">Most analysis</a> so far has focused on whether these devices will actually motivate more active lifestyles or will go the way of most health related New Year&#39;s resolutions - initial excitement followed by a steady return to business as usual.</p>
+
+<p>Providing useful information for health professionals, is an even larger challenge for these devices. For that they need to measure something meaningful, be reliable in that measurement, and make that information accessible within the pressured timeframe of an emergency room or general practice or any other consultation.</p>
+
+<h4>(Health) data, data everywhere? but is any of it useful?</h4>
+
+<p>There is more data in the world than we know what to do with, and <a href="http://www.economist.com/node/15557443">health is no exception</a>. Importantly, my brain is not a Google algorithm, it cannot sort through terabytes of information in seconds, and decide as it sorts what information might be useful. Instead I need to consciously evaluate each variable. Take daily step count, this might be useful in an end-stage COPD or CCF patient to show a trend for loss of exercise tolerance, however it tells me nothing about whether the young woman in front of me has been having arrhythmias or not. Even a heart rate recording may not tell me that much - tachycardia in response to dizziness and nausea, unless extreme, isn&#39;t particularly exciting.</p>
+
+<h4>Garbage in, garbage out.</h4>
+
+<p>We all know this old research adage. An recent <a href="http://jama.jamanetwork.com/article.aspx?articleid=2108876">article</a> in JAMA in 2015 found that many wrist based wearable devices were less accurate than phone based pedometers in their calculation of steps. The article was <a href="http://www.wired.com/2015/03/fitness-tracking-test/">criticised</a> for testing outdated models. But the concern still remains, would you bother evaluating information you don&#39;t even trust. As a recent <a href="%5Bhttp://www.ncbi.nlm.nih.gov/pubmed/26684758">systematic review</a> showed very few variables other than steps have been evaluated scientifically. The non-scientific evaluations of some technologies such as wrist based heart rate monitors haven&#39;t been particularly reassuring - with 50% error rates being reported with <a href="http://www.cnet.com/au/news/how-accurate-are-wristband-heart-rate-monitors/">some devices</a>.</p>
+
+<h4>Is it worth my time?</h4>
+
+<p>A Pew survey indicates that many people who track health data, don&#39;t actually share it with anyone (http://www.pewinternet.org/2013/01/28/tracking-for-health). Part of this technological issue, several apps now store their data on a health cloud, and the patient can authorize health professionals to see their data through a login system. But partly it&#39;s just a question of time. Unless a device has a way of identifying variables or episodes that a health professional may consider looking at, the time taken to dig through the data may not be worth it. This is the reason implantable loop recorders, which have been in use for several years now, come with an activator which patients press when they have symptoms (http://emedicine.medscape.com/article/1920236-overview).</p>
+
+<h4>Dedicated health devices as the answer?</h4>
+
+<p>The mHealth Screening to Prevent Strokes (<a href="https://www.clinicaltrials.gov/ct2/show/NCT02506244">mSToPS</a>) study is currently evaluating a stick-on patch to identify atrial fibrillation in high risk patients. This is a dedicated piece of health technology, not a general consumer item with a health label attached. Perhaps in 2020 smartwatches will record and integrate data in a reliable and usable way, which reassures me that the young woman in front of me hasn&#39;t been experiencing sinister arrhythmias. For now I can ignore that strap around her wrist, ask a few more dedicated questions and evaluate her in the usual way.</p>
+
+<hr>
+
+<p><sub>Image courtesy of Intel Free Press under the <a href="https://creativecommons.org/licenses/by-sa/2.0/legalcode">CC BY-SA 2.0</a> license.</sub></p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>How to safeguard the privacy of Australian health data in the cloud</title>
+	  <link>//privacy-health-data</link>
+	  <author>Martin Seneviratne</author>
+	  <pubDate>2016-02-22T21:18:00+11:00</pubDate>
+	  <guid>//privacy-health-data</guid>
+	  <description><![CDATA[
+	     <p>I once sat across from a doctor and stated that the only safe way to manage archival health data is in the cloud. As a consultant physician, I did not expect her retort to be <em>but what about the Patriot Act?</em> The Patriot Act is a now-replaced piece of American legislation that had far-reaching effects, with the <a href="http://www.theguardian.com/technology/2015/sep/09/microsoft-court-case-hotmail-ireland-search-warrant">US Department of Justice laying claim to data stored by American companies?even overseas</a>.</p>
+
+<p>In Australia we are bound by myriad privacy acts spanning States, Territories and the Commonwealth, and no more resoundingly can their implications be felt than in the health community. And rightly so. We are privy to sensitive information, the disclosure of which can range from banal to destructive to the individual. The impact of even that which we see as trivial, through desensitising exposure, is highlighted by television such as <em>Embarrassing Bodies</em>.</p>
+
+<p>My spy-wary conversationalist sparked a fervent exploration on my part. From a technical standpoint I was certain that prior encryption of health data would suffice for compliance with privacy legislation. But what about the Patriot Act?</p>
+
+<p>Australian privacy requirements are based upon what are known as &quot;privacy principles&quot; - see this <a href="https://www.oaic.gov.au/agencies-and-organisations/guides/app-quick-reference-tool">quick reference guide</a>. Beyond the protection of data from unauthorised disclosure or modification, we have an obligation to adequately protect against loss of data. I argue that the most feasible means by which we can quantify the risk of data loss is in the cloud.</p>
+
+<p>Cloud storage vendors are akin to insurance companies. They, respectively, spread the risk of data and financial losses across their pool of clients. When Amazon advertises 11-nines data integrity (1-in-100-billion probability of loss) it is founded in historical data much as that used by an actuary in determining your insurance premium [1]. Can any Australian hospitals provide this same level of precision?</p>
+
+<p>Even with such motivation to migrate data to the cloud we are still met with security concerns. Borrowing from guidelines published by the Australian Signals Directorate - the agency tasked with our Government&#39;s information security - I have produced a <a href="http://www.slideshare.net/ArranSchlosberg/data-security-in-genomics-a-review-of-australian-privacy-requirements-and-their-relation-to-cryptography-in-data-storage-57979838">primer in cryptography with a focus on compliance with the specific wording of Australian privacy legislation</a>. Despite the genomic bent, it is relevant to every Australian tasked with the protection of health data.</p>
+
+<hr>
+
+<p><em>Disclaimer: I am not a lawyer and neither this post nor the publication should be construed as legal advice. The purpose of this text is to provide the reader with an adequate technical understanding of data security such that they can, in consultation with their lawyer, make informed decisions regarding data-management policy.</em></p>
+
+<p><sub><em>[1] Amazon Web Services Inc. &quot;Amazon Simple Storage Service (S3) - Object Storage&quot;. Available from: https://aws.amazon.com/s3/. [Last accessed on 2016 Feb 7].</em></sub></p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>

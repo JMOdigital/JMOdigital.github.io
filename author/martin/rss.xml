@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>jmodigital.com/</title>
+   
+   <link>http://jmodigital.com</link>
+   <description>A network of training clinicians interested in digital health and entrepreneurship</description>
+   <language>en-uk</language>
+   <managingEditor> Martin Seneviratne</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Building a health calculator with Google Polymers</title>
+	  <link>//polymer-coding-tutorial</link>
+	  <author>martin</author>
+	  <pubDate>2016-02-22T21:18:00+11:00</pubDate>
+	  <guid>//polymer-coding-tutorial</guid>
+	  <description><![CDATA[
+	     <blockquote>
+<p>Adapted from the <em>Coding 101</em> workshop delivered at the 2015 Future Health Leaders Conference in Sydney. 
+Thanks to Kevin Gleason (@kevinagleason) for his Polymer ToDo tutorial, which provided some inspiration. Some of the app layouts have been drawn from his code under the provisions of the MIT license. </p>
+</blockquote>
+
+<h3>Aim</h3>
+
+<p>Simple software applications have the power to transform the <em>user-experience</em> of healthcare for both clinicians and patients. Thanks to increasingly intuitive development frameworks, web apps for tracking your own health data, scheduling appointments, task allocation and decision support are now easier to build than ever before. This will be a hands-on tutorial showing you how to write a short piece of code for a healthcare application. We will use Javascript and Google Polymers to guide you through the process of building a simple calculator app to generate, for example, a BMI, or a Wells Score, or an osteoporosis risk. </p>
+
+<h3>Prerequisites</h3>
+
+<p>The tutorial is designed for those with ZERO programming experience. </p>
+
+<h3>Downloads</h3>
+
+<h5>Essential</h5>
+
+<ul>
+<li><p>A text editor for writing code e.g. <a href="http://www.sublimetext.com/download">SublimeText</a></p></li>
+<li><p>Software to run a local server to test out your code e.g. <a href="https://www.python.org/downloads/">Python</a>
+<em>(NB. versions 2 and 3 acceptable, available for Mac/Windows/Linux)</em></p></li>
+</ul>
+
+<h5>Optional but helpful</h5>
+
+<ul>
+<li>A package manager to download dependencies <a href="https://nodejs.org/en/">Node.js and Node Package Manager</a></li>
+<li>Version control for tracking your changes and uploading to the internet: <a href="http://git-scm.com">Git</a></li>
+<li>A clever piece of software for updating dependencies: <a href="http://bower.io">Bower</a></li>
+</ul>
+
+<hr>
+
+<h3>Finished product</h3>
+
+<p>Below is a screenshot of the finished calculator app that you will develop! </p>
+
+<p><img src="/assets/images/calculator.png" alt="Finished calculator app"></p>
+
+<hr>
+
+<h3>Setup</h3>
+
+<h5>Step 1</h5>
+
+<p>Ensure you have downloaded Python (version 2 or 3) and a text editor for editing the code. See above for details. </p>
+
+<p>Download the <a href="https://github.com/martinsen/FHLtute">template app</a></p>
+
+<p>This includes all the views and formatting to make your life easier, so you can just focus on the logic. </p>
+
+<h5>Step 2</h5>
+
+<p>Open the terminal in your computer.</p>
+
+<p>Navigate into the FHL tutorial folder.
+<code>cd FHLtutorial
+</code></p>
+
+<h5>Step 3</h5>
+
+<p>Run a local server to test your app. </p>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">For</span> <span class="n">Python</span> <span class="mi">2</span><span class="p">:</span>
+<span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">SimpleHTTPServer</span>   
+
+<span class="n">For</span> <span class="n">Python</span> <span class="mi">3</span><span class="p">:</span> 
+ <span class="n">Python</span> <span class="mi">3</span> <span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">http</span><span class="o">.</span><span class="n">server</span>
+</code></pre></div>
+<h5>Step 4</h5>
+
+<p>Run a local server to test your app. </p>
+
+<p>Open the browser to: <a href="http://localhost:8000">http://localhost:8000</a></p>
+
+<hr>
+
+<h3>Input</h3>
+
+<p>The file you will mainly be dealing with is the calculator.html file. </p>
+
+<p>Fire up your text editor (SublimeText) and open <em>calculator.html</em></p>
+
+<p>Scroll down halfway to the <em>Questionnaire input</em> section, where we see 3 different kinds of inputs: </p>
+
+<ul>
+<li>Text or numerical input (paper-input) for which the range or number of characters can be specified.</li>
+<li>Checkbox input (paper-checkbox)</li>
+<li>Multiple choice input (paper-radio-group)</li>
+</ul>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!--Questionnaire input --&gt;</span>
+<span class="nt">&lt;paper-material</span> <span class="na">id=</span><span class="s">&quot;todoEntry&quot;</span> <span class="na">elevation=</span><span class="s">&quot;2&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;paper-input</span> <span class="na">id=</span><span class="s">&quot;tName&quot;</span> <span class="na">char-counter</span> <span class="na">label=</span><span class="s">&quot;First Name / ID&quot;</span> <span class="na">maxlength=</span><span class="s">&quot;20&quot;</span> 
+    <span class="na">error=</span><span class="s">&quot;maximum characters exceeded&quot;</span> <span class="na">style=</span><span class="s">&quot;width:65%&quot;</span><span class="nt">&gt;</span> &gt;<span class="nt">&lt;/paper-input&gt;</span>
+
+    <span class="nt">&lt;paper-input</span> <span class="na">id=</span><span class="s">&quot;tAge&quot;</span> <span class="na">label=</span><span class="s">&quot;Age&quot;</span> <span class="na">pattern=</span><span class="s">&quot;[0-9]{2,3}&quot;</span> <span class="na">auto-validate</span> 
+    <span class="na">error-message=</span><span class="s">&quot;Invalid age!&quot;</span><span class="nt">&gt;</span> &gt;<span class="nt">&lt;/paper-input&gt;</span>   
+
+    <span class="nt">&lt;paper-input</span> <span class="na">id=</span><span class="s">&quot;tWeight&quot;</span> <span class="na">label=</span><span class="s">&quot;Weight in kilograms&quot;</span> <span class="na">type=</span><span class="s">&quot;number&quot;</span> <span class="na">min=</span><span class="s">&quot;20&quot;</span> 
+    <span class="na">max=</span><span class="s">&quot;250&quot;</span> <span class="na">auto-validate</span> <span class="na">error-message=</span><span class="s">&quot;Invalid weight!&quot;</span><span class="nt">&gt;&lt;/paper-input&gt;</span>
+
+    <span class="nt">&lt;paper-input</span> <span class="na">id=</span><span class="s">&quot;tHeight&quot;</span> <span class="na">label=</span><span class="s">&quot;Height in centimetres&quot;</span> <span class="na">type=</span><span class="s">&quot;number&quot;</span> <span class="na">min=</span><span class="s">&quot;50&quot;</span> 
+    <span class="na">max=</span><span class="s">&quot;250&quot;</span> <span class="na">auto-validate</span> <span class="na">error-message=</span><span class="s">&quot;Invalid height!&quot;</span><span class="nt">&gt;&lt;/paper-input&gt;</span>
+
+    <span class="nt">&lt;paper-checkbox</span> <span class="na">id=</span><span class="s">&quot;checkboxInput&quot;</span><span class="nt">&gt;&lt;b&gt;</span>Example checkbox input<span class="nt">&lt;/b&gt;&lt;/paper-checkbox&gt;</span>
+
+    <span class="nt">&lt;h4</span> <span class="na">class=</span><span class="s">&quot;question-title&quot;</span><span class="nt">&gt;</span>Example MCQ input<span class="nt">&lt;/h4&gt;</span>
+    <span class="nt">&lt;paper-radio-group</span> <span class="na">id =</span><span class="err"> </span><span class="s">&quot;MCQ&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;paper-radio-button</span> <span class="na">name=</span><span class="s">&quot;1&quot;</span> <span class="na">value=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;</span>Small<span class="nt">&lt;/paper-radio-button&gt;</span>
+         <span class="nt">&lt;paper-radio-button</span> <span class="na">name=</span><span class="s">&quot;2&quot;</span> <span class="na">value=</span><span class="err"> </span><span class="s">&quot;2&quot;</span><span class="nt">&gt;</span>Medium<span class="nt">&lt;/paper-radio-button&gt;</span>
+         <span class="nt">&lt;paper-radio-button</span> <span class="na">name=</span><span class="s">&quot;3&quot;</span> <span class="na">value=</span><span class="err"> </span><span class="s">&quot;3&quot;</span><span class="nt">&gt;</span>Large<span class="nt">&lt;/paper-radio-button&gt;</span>
+    <span class="nt">&lt;/paper-radio-group&gt;</span>
+
+<span class="nt">&lt;paper-fab</span> <span class="na">icon=</span><span class="s">&quot;icons:arrow-forward&quot;</span> <span class="na">on-tap=</span><span class="s">&quot;calculate&quot;</span><span class="nt">&gt;&lt;/paper-fab&gt;</span>
+<span class="nt">&lt;/paper-material&gt;</span>
+</code></pre></div>
+<hr>
+
+<h3>Output/Calculation</h3>
+
+<p>Here is the real logic, where we use our inputs from section 1 to calculate a score. Below is a single javascript function called <em>calculate</em> which defines <em>local variables</em> corresponding to the inputs from section 1. The function then checks whether the inputs have any data and, if so, assigns these data to the local variables. Finally, the function calculates a score, in this case BMI, using the local variables and some simple Javascript maths (see next page for the syntax of some common maths functions). Note that we are not using all our variables in this example - you can customise your inputs to get just the right information you need for your calculation. The endgame is to assign a new value for <em>this.score</em>, which is a <em>property</em> that we have defined in the code just above. </p>
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">calculate</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">score</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+        <span class="kd">var</span> <span class="nx">weight</span><span class="p">;</span>
+        <span class="kd">var</span> <span class="nx">age</span><span class="p">;</span>
+        <span class="kd">var</span> <span class="nx">height</span><span class="p">;</span>
+        <span class="kd">var</span> <span class="nx">check</span><span class="p">;</span>
+        <span class="kd">var</span> <span class="nx">MCQ</span><span class="p">;</span>
+
+        <span class="k">if</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">$</span><span class="p">.</span><span class="nx">tWeight</span><span class="p">)</span> <span class="p">{</span>
+            <span class="nx">weight</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">$</span><span class="p">.</span><span class="nx">tWeight</span><span class="p">.</span><span class="nx">value</span><span class="p">)</span> <span class="o">||</span> <span class="mi">0</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">$</span><span class="p">.</span><span class="nx">tAge</span><span class="p">){</span>
+            <span class="nx">age</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">$</span><span class="p">.</span><span class="nx">tAge</span><span class="p">.</span><span class="nx">value</span><span class="p">)</span> <span class="o">||</span> <span class="mi">0</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">$</span><span class="p">.</span><span class="nx">MCQ</span><span class="p">.</span><span class="nx">selected</span><span class="p">){</span>
+            <span class="nx">MCQ</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">$</span><span class="p">.</span><span class="nx">MCQ</span><span class="p">.</span><span class="nx">selected</span><span class="p">)</span><span class="o">||</span><span class="mi">0</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">$</span><span class="p">.</span><span class="nx">tHeight</span><span class="p">){</span>
+            <span class="nx">height</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">$</span><span class="p">.</span><span class="nx">tHeight</span><span class="p">.</span><span class="nx">value</span><span class="p">)</span><span class="o">||</span><span class="mi">0</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="k">switch</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">$</span><span class="p">.</span><span class="nx">checkboxInput</span><span class="p">.</span><span class="nx">checked</span><span class="p">){</span>
+            <span class="k">case</span> <span class="kc">true</span><span class="o">:</span>
+                <span class="nx">check</span> <span class="o">=</span> <span class="mi">2</span>
+                <span class="k">break</span><span class="p">;</span>
+            <span class="k">case</span> <span class="kc">false</span><span class="o">:</span>
+                <span class="nx">check</span> <span class="o">=</span> <span class="mi">0</span>
+                <span class="k">break</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="kd">var</span> <span class="nx">BMI</span> <span class="o">=</span> <span class="p">(</span><span class="nx">weight</span><span class="o">/</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">pow</span><span class="p">((</span><span class="nx">height</span><span class="o">/</span><span class="mi">100</span><span class="p">),</span><span class="mi">2</span><span class="p">)));</span>
+
+        <span class="k">this</span><span class="p">.</span><span class="nx">score</span> <span class="o">=</span> <span class="o">+</span><span class="p">(</span><span class="nx">BMI</span><span class="p">.</span><span class="nx">toFixed</span><span class="p">(</span><span class="mi">2</span><span class="p">));</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">unshift</span><span class="p">(</span><span class="s1">&#39;done&#39;</span><span class="p">,{</span><span class="nx">value</span><span class="o">:</span><span class="k">this</span><span class="p">.</span><span class="nx">score</span><span class="p">,</span> <span class="nx">name</span><span class="o">:</span><span class="k">this</span><span class="p">.</span><span class="nx">$</span><span class="p">.</span><span class="nx">tName</span><span class="p">.</span><span class="nx">value</span><span class="p">});</span>
+    <span class="p">},</span>
+</code></pre></div>
+<h5>Javascript maths reference</h5>
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nb">Math</span><span class="p">.</span><span class="nx">abs</span><span class="p">(</span><span class="nx">a</span><span class="p">)</span>     <span class="c1">// the absolute value of a</span>
+<span class="nb">Math</span><span class="p">.</span><span class="nx">acos</span><span class="p">(</span><span class="nx">a</span><span class="p">)</span>    <span class="c1">// arc cosine of a</span>
+<span class="nb">Math</span><span class="p">.</span><span class="nx">asin</span><span class="p">(</span><span class="nx">a</span><span class="p">)</span>    <span class="c1">// arc sine of a</span>
+<span class="nb">Math</span><span class="p">.</span><span class="nx">atan</span><span class="p">(</span><span class="nx">a</span><span class="p">)</span>    <span class="c1">// arc tangent of a</span>
+<span class="nb">Math</span><span class="p">.</span><span class="nx">atan2</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span><span class="nx">b</span><span class="p">)</span> <span class="c1">// arc tangent of a/b</span>
+<span class="nb">Math</span><span class="p">.</span><span class="nx">ceil</span><span class="p">(</span><span class="nx">a</span><span class="p">)</span>    <span class="c1">// integer closest to a and not less than a</span>
+<span class="nb">Math</span><span class="p">.</span><span class="nx">cos</span><span class="p">(</span><span class="nx">a</span><span class="p">)</span>     <span class="c1">// cosine of a</span>
+<span class="nb">Math</span><span class="p">.</span><span class="nx">exp</span><span class="p">(</span><span class="nx">a</span><span class="p">)</span>     <span class="c1">// exponent of a (Math.E to the power a)</span>
+<span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">(</span><span class="nx">a</span><span class="p">)</span>   <span class="c1">// integer closest to a, not greater than a</span>
+<span class="nb">Math</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">a</span><span class="p">)</span>     <span class="c1">// log of a base e</span>
+<span class="nb">Math</span><span class="p">.</span><span class="nx">max</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span><span class="nx">b</span><span class="p">)</span>   <span class="c1">// the maximum of a and b</span>
+<span class="nb">Math</span><span class="p">.</span><span class="nx">min</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span><span class="nx">b</span><span class="p">)</span>   <span class="c1">// the minimum of a and b</span>
+<span class="nb">Math</span><span class="p">.</span><span class="nx">pow</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span><span class="nx">b</span><span class="p">)</span>   <span class="c1">// a to the power b</span>
+<span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span>   <span class="c1">// pseudorandom number 0 to 1 (see examples)</span>
+<span class="nb">Math</span><span class="p">.</span><span class="nx">round</span><span class="p">(</span><span class="nx">a</span><span class="p">)</span>   <span class="c1">// integer closest to a (see rounding examples)</span>
+<span class="nb">Math</span><span class="p">.</span><span class="nx">sin</span><span class="p">(</span><span class="nx">a</span><span class="p">)</span>     <span class="c1">// sine of a</span>
+<span class="nb">Math</span><span class="p">.</span><span class="nx">sqrt</span><span class="p">(</span><span class="nx">a</span><span class="p">)</span>    <span class="c1">// square root of a</span>
+<span class="nb">Math</span><span class="p">.</span><span class="nx">tan</span><span class="p">(</span><span class="nx">a</span><span class="p">)</span>     <span class="c1">// tangent of a</span>
+</code></pre></div>
+<hr>
+
+<h3>Score Dial</h3>
+
+<p>Now we are going to hook up the score to a score dial like this: 
+<img src="/assets/images/dial.png" alt="Score dial"></p>
+
+<p>In the template section: </p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;!--Score feedback with dial --&gt;
+&lt;paper-material&gt;
+&lt;paper-item elevation=&quot;4&quot;&gt; &lt;h2&gt;Total score: &lt;span&gt;&lt;/span&gt;&lt;/h2&gt;&lt;/paper-item&gt;
+        &lt;google-chart
+            type=&#39;gauge&#39;
+            id = &#39;gaugeChart&#39;
+            options=&#39;{
+                    &quot;redFrom&quot;: 35,
+                    &quot;redTo&quot;: 50,
+                     &quot;yellowFrom&quot;: 25,
+                     &quot;yellowTo&quot;: 35,
+                     &quot;max&quot;:50,
+                     &quot;minorTicks&quot;: 5}&#39;
+                    data=&#39;[[&quot;Label&quot;, &quot;Value&quot;],
+                    [&quot;Score&quot;, 0]]&#39;&gt;
+        &lt;/google-chart&gt;
+&lt;/paper-material&gt;
+</code></pre></div>
+<p>In the Javascript <em>calculate</em> function: </p>
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="p">...</span><span class="k">in</span> <span class="nx">calculate</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span> 
+            <span class="p">...</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">$</span><span class="p">.</span><span class="nx">gaugeChart</span><span class="p">.</span><span class="nx">data</span> <span class="o">=</span> <span class="p">[[</span><span class="s2">&quot;Label&quot;</span><span class="p">,</span> <span class="s2">&quot;Value&quot;</span><span class="p">],[</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">score</span><span class="p">)]];</span>
+        <span class="p">...</span>
+</code></pre></div>
+<hr>
+
+<h3>Recommendations</h3>
+
+<p>Finally, we link up the score to relevant text recommendations.</p>
+
+<p>In the template section: 
+<code>
+&lt;!--Recommendations for further action --&gt;
+&lt;paper-material&gt;
+    &lt;paper-item&gt;&lt;h2&gt;Recommendations&lt;/h2&gt;&lt;/paper-item&gt;
+    &lt;paper-item id=&quot;recommendText&quot;&gt;Text goes here&lt;/paper-item&gt;
+    &lt;google-hangout-button id=&quot;callButton&quot;&gt;&lt;/google-hangout-button&gt;
+&lt;/paper-material&gt;
+</code></p>
+
+<p>In the Javascript section, define a new function called <em>stratify</em>. This function takes the score and uses the Javascript <em>switch</em> function to do different things depending on which range the score falls into. Here we have three case scenarios. Each case sets the recommendation text to a different output. It also adjusts the value of a boolean parameter <em>callDoc</em> which we use as a switch to make a particular button (a google hangout button defined above) disappear or appear. Imagine this as a tele-medecine link - if your score is in a dangerous range, a google-hangout button appears for you to reach out: </p>
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">stratify</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">e</span><span class="p">){</span>
+        <span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">score</span><span class="p">;</span>
+        <span class="k">switch</span><span class="p">(</span><span class="kc">true</span><span class="p">){</span>
+            <span class="k">case</span> <span class="p">(</span><span class="nx">x</span><span class="o">&lt;=</span><span class="mi">17</span><span class="p">)</span><span class="o">:</span>
+                <span class="nx">callDoc</span><span class="o">=</span><span class="kc">false</span><span class="p">;</span>
+                <span class="k">this</span><span class="p">.</span><span class="nx">$</span><span class="p">.</span><span class="nx">recommendText</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="s2">&quot;Your BMI is too low&quot;</span><span class="p">;</span>
+                <span class="k">break</span><span class="p">;</span>
+            <span class="k">case</span> <span class="p">(</span><span class="nx">x</span> <span class="o">&gt;</span> <span class="mi">17</span> <span class="o">&amp;&amp;</span> <span class="nx">x</span> <span class="o">&lt;</span> <span class="mi">25</span><span class="p">)</span><span class="o">:</span>
+                <span class="nx">callDoc</span><span class="o">=</span><span class="kc">false</span><span class="p">;</span>
+                <span class="k">this</span><span class="p">.</span><span class="nx">$</span><span class="p">.</span><span class="nx">recommendText</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="s2">&quot;BMI within range&quot;</span><span class="p">;</span>
+                <span class="k">break</span><span class="p">;</span>
+            <span class="k">case</span> <span class="p">(</span><span class="nx">x</span> <span class="o">&gt;=</span><span class="mi">25</span><span class="p">)</span><span class="o">:</span>
+                <span class="nx">callDoc</span><span class="o">=</span><span class="kc">true</span><span class="p">;</span>
+                <span class="k">this</span><span class="p">.</span><span class="nx">$</span><span class="p">.</span><span class="nx">recommendText</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="s2">&quot;BMI too high.&quot;</span><span class="p">;</span>
+                <span class="k">break</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">$</span><span class="p">.</span><span class="nx">callButton</span><span class="p">.</span><span class="nx">hidden</span> <span class="o">=</span> <span class="o">!</span><span class="nx">callDoc</span><span class="p">;</span>
+    <span class="p">},</span>
+    <span class="nx">ready</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">e</span><span class="p">){</span>
+    <span class="p">}</span>
+</code></pre></div>
+<hr>
+
+<h3>Conclusion</h3>
+
+<p>Congratulations. Now it&#39;s time to play around with your new app. You can build in more features like charts, maps and tables using the ever-growing catalogue of Polymer elements. Read more about these elements <a href="https://elements.polymer-project.org/">here</a>. You can even design your own reusable elements to incorporate into further web development projects - this is the future of modular web development! </p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>What if hospitals were run by Apple</title>
+	  <link>//what-if-hospitals-ran-like-apple</link>
+	  <author>martin</author>
+	  <pubDate>2016-02-01T21:18:00+11:00</pubDate>
+	  <guid>//what-if-hospitals-ran-like-apple</guid>
+	  <description><![CDATA[
+	     <blockquote>
+<p>The experience of presenting to the Apple Store Genius Bar might carry some important lessons for hospital workflows. <em>Martin Seneviratne</em> explains why.</p>
+</blockquote>
+
+<p>I recently had a technical problem with my Mac computer. It had been gradually slowing down and then one day it simply refused to turn on. The little spinning wheel just kept spinning ad infinitum. I consider myself to be reasonably tech savvy, so it was with a hint of defeat that I paid a visit to the Apple store.</p>
+
+<p>After booking the appointment online, I arrived to be greeted by the iPad-wielding store managers, who directed me to a back desk where I would be seen by one of the Apple Geniuses. Meanwhile, they logged the serial number from underneath my computer to get a full record of exactly where that computer was sold, when it had been repaired, what Apple user IDs were associated with it. All of which appeared on my Genius? iPad when he arrived to help us.</p>
+
+<p>The Genius turned out to be quite an eminent diagnostician. He took a history of the problem, asked about any previous issues I had experienced with the computer, and then began a very methodical series of investigations. He ran a script to check the integrity of the hardware, used an algorithm to detect logic errors in the software, checked the most recent internal error logs. The conclusion - a fatal software problem requiring a full reboot of the operating system.</p>
+
+<p>At each step, he documented his findings in an electronic pro-forma built into an iPad app, which in the end generated a full report of the encounter for upload to Apple?s international database. Before he rebooted the system, I had to sign (with my finger on the iPad) an automatically-generated consent form. And when I left, with a software-refurbished Mac convalescing under my arm, I was emailed a complete summary.</p>
+
+<p>At each step, he documented his findings in an electronic pro-forma built into an iPad app, which in the end generated a full report of the encounter for upload to Apple?s international database.</p>
+
+<p>It struck me afterwards how medical this whole experience had been. My computer had basically come in GCS 3 on a background of chronic dementia with an acute deterioration. There was triage, investigations, diagnosis, intervention. And finally the computer was discharged. Yet it was all done with a level of slick technological efficiency that I had never seen in a hospital before. So the question naturally occurred - what if a hospital was run like an Apple store?</p>
+
+<p>There are three aspects in particular of the <em>Apple model</em> that would be interesting to imagine in a healthcare context:</p>
+
+<ol>
+<li><p>Bedside technology: In most hospitals, the average morning ward round could benefit significantly from some technological support. Currently so much time is wasted juggling different charts, deciphering illegible handwriting, running to check information on the computer. What we need is an iPad app with centralised patient information and a pro-forma interface for formulaic tasks like recording vitals, reporting examination findings and charting medications. This is precisely what Apple has already developed for computer maintenance.</p></li>
+<li><p>Electronic records: Apple gives us aglimpse of what centralized e-health records might one day be. It has a global database where both devices and consumers are tracked with unique IDs, and information is synchronised across every Apple store internationally. That being said,concerns have been raised about the quantity of personal information held by Apple and the privacy regulations protecting it.</p></li>
+<li><p>Staff training: Apple can monitor the time and outcome of each Genius consult and thus track the performance of each employee. This may seem overly intrusive, but imagine the potential efficiency gain if medical consults were electronically tracked and collectively analysed.</p></li>
+</ol>
+
+<p>Of course, we cannot model our entire healthcare system on an Apple store. There would not be very good patient follow-up, no personalised healthcare, and we would only treat people if they were still under warranty. And the hospital gift shop would have to expand considerably.</p>
+
+<p>However, by leveraging technology to streamline routine tasks, Apple have designed an amazingly efficient ?computer healthcare? system from which the medical world can learn some valuable lessons.</p>
+
+<p>The old mantra <em>an apple a day keeps the doctor away</em> almost implies a rivalry between doctors and apples. In fact, there should probably be more crosstalk.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>PCEHR for JMOs</title>
+	  <link>//pcehr-for-jmos</link>
+	  <author>martin</author>
+	  <pubDate>2016-01-29T21:18:00+11:00</pubDate>
+	  <guid>//pcehr-for-jmos</guid>
+	  <description><![CDATA[
+	     <p>Placeholder text </p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Gameifying Discharge Summaries</title>
+	  <link>//gameifying-discharge-summaries</link>
+	  <author>martin</author>
+	  <pubDate>2016-01-10T21:18:00+11:00</pubDate>
+	  <guid>//gameifying-discharge-summaries</guid>
+	  <description><![CDATA[
+	     <p>Placeholder text</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
