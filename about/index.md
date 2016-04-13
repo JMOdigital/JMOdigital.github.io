@@ -13,13 +13,19 @@ This group is open to JMOs, nurses, allied health professionals and technology p
 
 To find out more, or to contribute to the site, please get in touch with Martin Seneviratne at  __<contact@jmodigital.com>__
 
+
 ___
 
 ##Founding Team
 
 + [Martin Seneviratne]({{site.baseurl}}author/martin)
++ [Mark Santamaria]({{site.baseurl}}author/mark)
 
+___
 
+##Disclaimer
+
+All views expressed in the site are personal views of the authors and in no way represent the positions of their hospitals or health districts.
 ___
 
 <sup>

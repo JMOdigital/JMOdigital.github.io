@@ -1,34 +1,16 @@
 
--   name: Robert Rawlins
-    email: robert@sorryapp.com
-    web: http://twitter.com/sirrawlins
-    nickname: 'robert'
-    bio: 'Resident @ RPA with a background in software dev'
-    location: 'Sydney, Australia'
-    url: 'http://biomadeira.github.io/jasper/'
-    image: 'assets/images/casper.png'
-    
--   name: Robin Geall
-    email: robert@sorryapp.com
-    web: http://twitter.com/sirrawlins
-    nickname: 'robin'
-    bio: 'Resident @ Nepean with a background in software dev'
-    location: 'Melbourne, Australia'
-    url: 'http://biomadeira.github.io/jasper/'
-    image: 'assets/images/casper.png'
-    
 -   name: Martin Seneviratne
     email: '@martin_sen'
     nickname: 'martin'
-    bio: 'Resident @ RPA with a background in software dev'
-    location: 'Sydney, Australia'
+    bio: 'Resident @ RPA, Board Director of the Health Informatics Society, background in health tech startups'
+    location: 'Sydney, AU'
     image: 'assets/images/author_pics/martin.jpg'
     
--   name: Mark S
-    email: mark@something.com
+-   name: Mark Santamaria
+    email: '@empty'
     nickname: 'mark'
-    bio: 'Placeholder text'
-    location: 'Melbourne, Australia'
+    bio: 'Emergency physician at Alfred Health'
+    location: 'Melbourne, AU'
     image: 'assets/images/casper.png'
     
 -   name: Arran Schlosberg
@@ -37,3 +19,24 @@
     bio: 'Genetic Pathology registrar with a background in software development and data analytics. Currently doing a Masters in genomics at Cambridge.'
     location: 'Cambridge, UK'
     image: 'assets/images/author_pics/arran.jpg'
+    
+-   name: Boris Waldman
+    email: '@empty'
+    nickname: 'boris'
+    bio: 'Intern @ RPA and Clinical Research Associated at the NHMRC Clinical Trials Centre'
+    location: 'Sydney, AU'
+    image: 'assets/images/author_pics/boris.jpg'
+    
+-   name: Eric Li
+    email: 'weli3785@uni.sydney.edu.au'
+    nickname: 'eric'
+    bio: 'Resident @ Nepean and head of the Nepean Technology Group'
+    location: 'Sydney, AU'
+    image: 'assets/images/cover6.jpg'
+    
+-   name: Sophie Dunkerton
+    email: 'sophiedunkerton@hotmail.com'
+    nickname: 'sophie'
+    bio: 'Resident @ Orange Hospital and leader of the Orange tablet deployment (iCare/WardConnect project)'
+    location: 'Orange, AU'
+    image: 'assets/images/cover6.jpg'

@@ -736,10 +736,10 @@ label {
   margin: 10px;
   background-color: #111;
   padding: 0 5px;
-  -webkit-transition: top .2s ease-in-out, 
-                      font-size .2s ease-in-out;
-  transition: top .2s ease-in-out, 
-              font-size .2s ease-in-out;
+  -webkit-transition: top .1s ease-in-out, 
+                      font-size .1s ease-in-out;
+  transition: top .1s ease-in-out, 
+              font-size .1s ease-in-out;
 }
 
 .active {
@@ -999,7 +999,7 @@ body:not(.post-template) .post-title {
 }
 
 .post-excerpt p {
-    margin: 0;
+    margin-right: 6em;
     font-size: 0.9em;
     line-height: 1.7em;
 }
