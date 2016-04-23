@@ -8,7 +8,16 @@
     <title>JMO Digital</title>
     <link>http://jmodigital.com</link>
     <description>A network of training clinicians interested in digital health and entrepreneurship</description>
-    <pubDate>Wed, 13 Apr 2016 20:18:00 +1000</pubDate>
+    <pubDate>Fri, 22 Apr 2016 20:18:00 +1000</pubDate>
+    <item>
+      <title>A prescription to change</title>
+      <link>http://jmodigital.com/eprescribing</link>
+      <description>A funny thing happened the other day that made me think I was back in the last century.
+
+</description>
+      <pubDate>Fri, 22 Apr 2016 20:18:00 +1000</pubDate>
+      <dc:date>2016-04-22T20:18:00+10:00</dc:date>
+    </item>
     <item>
       <title>Tablet-based health interventions</title>
       <link>http://jmodigital.com/ehealth-initiatives-orange</link>
@@ -109,6 +118,6 @@ Each time junior doctors rotate terms, it can feel like starting from scratch. T
       <pubDate>Wed, 09 Dec 2015 21:18:00 +1100</pubDate>
       <dc:date>2015-12-09T21:18:00+11:00</dc:date>
     </item>
-    <dc:date>2016-04-13T20:18:00+10:00</dc:date>
+    <dc:date>2016-04-22T20:18:00+10:00</dc:date>
   </channel>
 </rss>
