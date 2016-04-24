@@ -1,0 +1,20 @@
+
+-   name: WardConnect
+    description: 'An app for interdisciplinary hospital ward rounds'
+    position: 'Chief Technical Officer'
+    detail: 'Manage software maintenance and customer relationships. Skills required: understanding of HL7 and FHIR'
+    commitment: '4hrs/week'
+    payment: 'volunteer'
+    contact: 'martin@wardconnect.com.au'
+    website: 'http://www.wardconnect.com.au'
+    image: 'assets/images/wc.jpg'
+    
+-   name: JMO Digital
+    description: 'An online community for clinicians interested in digital health'
+    position: 'Sub-editor'
+    detail: 'Source new articles, edit copy, promote via social media'
+    commitment: '4hrs/week'
+    payment: 'volunteer'
+    contact: 'martin@jmodigital.com'
+    image: 'assets/images/ghost.png'
+    

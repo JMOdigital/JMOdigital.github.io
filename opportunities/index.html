@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Contributors
+title: Startup Opportunities
 navigation: True
 logo: 'assets/images/ghost.png'
-current: contributors
-cover: 'assets/images/writers.jpg'
+current: opportunities
+cover: 'assets/images/ops.jpg'
 ---
 
 <header class="main-header tag-head {% if page.cover %}" style="background-image: url({{ site.baseurl }}{% if new_cover %}{{ new_cover }}{% else %}{{ page.cover }}{% endif%}) {% else %}no-cover{% endif %}">
@@ -16,7 +16,7 @@ cover: 'assets/images/writers.jpg'
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
-            <h1 class="page-title" style="color:DarkSlateGrey;">Contributors</h1>
+            <h1 class="page-title" style="color:DarkSlateGrey;">Startup Opportunities</h1>
         </div>
     </div>
 </header>
@@ -24,6 +24,6 @@ cover: 'assets/images/writers.jpg'
 <!-- The main content area on the homepage -->
 <main id="content" class="content" role="main">
     <!-- The tag below includes the post loop - partials/loop.hbs -->
-    {% include loop_authorlist.html %}
+    {% include loop_oplist.html %}
 
 </main>

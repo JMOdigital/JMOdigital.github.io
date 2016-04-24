@@ -1,10 +1,10 @@
 ---
 layout: post
-cover: 'assets/images/cover_nepean.png'
+cover: 'assets/images/tablet.jpg'
 title: The Nepean JMO Wiki
 date:   2016-02-02 10:18:00
-tags: projects nepean
-subclass: 'post tag-ideas tag-nepean'
+tags: projects
+subclass: 'post tag-ideas'
 author: eric
 categories: eric
 navigation: True
@@ -12,9 +12,6 @@ logo: 'assets/images/ghost.png'
 disqus: False
 
 ---
-
->  **Eric Li** from **The Nepean Technology Working Group** describes the development of the JMO handover wiki.
-
 ####The Idea
 Each time junior doctors rotate terms, it can feel like starting from scratch. There is a lot of experiential learning that gets lost. 
 

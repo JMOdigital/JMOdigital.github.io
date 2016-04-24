@@ -11,7 +11,7 @@ JMO Digital is a community of young clinicians across Australia with a shared in
 
 This group is open to JMOs, nurses, allied health professionals and technology professionals with a healthcare bent. 
 
-To find out more, or to contribute to the site, please get in touch with Martin Seneviratne at  __<contact@jmodigital.com>__
+To find out more, or to contribute to the site, please get in touch  at  __<editor@jmodigital.com>__
 
 
 ___

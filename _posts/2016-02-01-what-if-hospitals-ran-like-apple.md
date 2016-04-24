@@ -1,14 +1,15 @@
 ---
 layout: post
-cover: 'assets/images/cover6.jpg'
+cover: 'assets/images/apple.jpg'
 title: What if hospitals were run by Apple
 date:   2016-02-01 10:18:00
-tags: ideas bankstown
-subclass: 'post tag-ideas tag-bankstown'
+tags: ideas mHealth
+subclass: 'post tag-ideas tag-mHealth'
 author: martin
 categories: martin
 navigation: true
-disqus: false
+disqus: true
+logo: 'assets/images/ghost.png'
 
 ---
 

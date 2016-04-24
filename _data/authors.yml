@@ -2,41 +2,41 @@
 -   name: Martin Seneviratne
     email: '@martin_sen'
     nickname: 'martin'
-    bio: 'Resident @ RPA, Board Director of the Health Informatics Society, background in health tech startups'
+    bio: 'Resident medical officer with a background in health tech startups'
     location: 'Sydney, AU'
     image: 'assets/images/author_pics/martin.jpg'
     
 -   name: Mark Santamaria
     email: '@empty'
     nickname: 'mark'
-    bio: 'Emergency physician at Alfred Health'
+    bio: 'Emergency physician and health informaticist'
     location: 'Melbourne, AU'
     image: 'assets/images/casper.png'
     
 -   name: Arran Schlosberg
     email: '@arranschlosberg'
     nickname: 'arran'
-    bio: 'Genetic Pathology registrar with a background in software development and data analytics. Currently doing a Masters in genomics at Cambridge.'
+    bio: 'Genetic Pathology trainee with a background in software development and data analytics. Currently doing a Masters in genomics at Cambridge.'
     location: 'Cambridge, UK'
     image: 'assets/images/author_pics/arran.jpg'
     
 -   name: Boris Waldman
     email: '@empty'
     nickname: 'boris'
-    bio: 'Intern @ RPA and Clinical Research Associated at the NHMRC Clinical Trials Centre'
+    bio: 'Junior medical officer and Clinical Research Associate at the NHMRC Clinical Trials Centre'
     location: 'Sydney, AU'
     image: 'assets/images/author_pics/boris.jpg'
     
 -   name: Eric Li
     email: 'weli3785@uni.sydney.edu.au'
     nickname: 'eric'
-    bio: 'Resident @ Nepean and head of the Nepean Technology Group'
+    bio: 'Resident medical officer and head of the Nepean Technology Group'
     location: 'Sydney, AU'
     image: 'assets/images/cover6.jpg'
     
 -   name: Sophie Dunkerton
     email: 'sophiedunkerton@hotmail.com'
     nickname: 'sophie'
-    bio: 'Resident @ Orange Hospital and leader of the Orange tablet deployment (iCare/WardConnect project)'
+    bio: 'Resident medical officer and leader of the Orange tablet deployment (iCare/WardConnect project)'
     location: 'Orange, AU'
     image: 'assets/images/cover6.jpg'

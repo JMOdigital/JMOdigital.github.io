@@ -1,10 +1,10 @@
 ---
 layout: post
-cover: 'assets/images/clouds.jpg'
+cover: 'assets/images/tablet.jpg'
 title:  Tablet-based health interventions
 date:   2016-04-13 10:18:00
-tags: data 
-subclass: 'post tag-data'
+tags: mHealth 
+subclass: 'post tag-mHealth'
 categories: 'sophie'
 navigation: True
 logo: 'assets/images/ghost.png'

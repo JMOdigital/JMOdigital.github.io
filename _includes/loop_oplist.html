@@ -1,0 +1,22 @@
+
+    <!-- This is the post loop - each post will be output using this markup -->
+    {% for op in site.data.opportunities %}
+    <article class="post">
+        <header class="post-header">
+            <h2 class="post-title"><a href={{op.website}}>{{op.name }}</a></h2>
+        </header>
+        <section class="post-excerpt">
+            <p><i>{{ op.description }} </i></p>
+        </section>
+        <section class="post-excerpt">
+            <p><b>Position:</b> {{ op.position }}</p>
+            <p><b>Description:</b> {{ op.detail }} </p>
+            <p><b>Type:</b> {{ op.payment }} </p>
+            <p><b>Contact:</b> {{op.contact}}</p>
+        </section>
+        <footer class="post-meta">
+            <img class="author-thumb-large" src="{{ site.baseurl }}{{ op.image }}" alt="Company image" nopin="nopin" />
+        </footer>
+    </article>
+     <hr>
+    {% endfor %}

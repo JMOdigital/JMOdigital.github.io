@@ -1929,6 +1929,7 @@ body:not(.post-template) .post-title {
 
     .post-excerpt p {
         font-size: 0.85em;
+        margin-right: 0em;
     }
 
     .page-description {
