@@ -40,3 +40,11 @@
     bio: 'Resident medical officer and leader of the Orange tablet deployment (iCare/WardConnect project)'
     location: 'Orange, AU'
     image: 'assets/images/cover6.jpg'
+
+-   name: Rahul Gokarn
+    email: 'rahul.gokarn@gmail.com'
+    nickname: 'rahul'
+    bio: 'Junior Medical Officer @ RPA, Editor for JMO Digital and PhD candidate. Worked in M&A and as a strategy consultant for an education startup.'
+    bio: 'Junior Medical Officer and PhD candidate with experience in M&A and consulting, now serving as the editor for JMO Digital'
+    location: 'Sydney, AU'
+    image: 'assets/images/author_pics/rahul.jpg'
