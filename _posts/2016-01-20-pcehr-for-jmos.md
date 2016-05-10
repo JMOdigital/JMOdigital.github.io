@@ -9,7 +9,7 @@ categories: 'casper martin'
 navigation: True
 logo: 'assets/images/ghost.png'
 cover: 'assets/images/cover4.jpg'
-author: 'martin'
+author: rahul
 ---
 
 Placeholder text 
