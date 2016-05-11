@@ -3,7 +3,7 @@ layout: post
 cover: 'assets/images/cover8.jpg'
 title:  Innovations in healthcare - lessons from the private sector
 date:   2016-05-01 10:00:00
-tags: innovation data mhealth
+tags: ideas data mhealth
 subclass: 'post tag-innovation tag-data'
 categories: 'rahul'
 navigation: True
