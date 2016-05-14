@@ -7,7 +7,7 @@ logo: 'assets/images/ghost.png'
 current: about
 ---
 
-JMO Digital is a community of young clinicians across Australia with a shared interest in digital health, clinical informatics and health entrepreneurship. We are passionate about bringing a *startup philosophy* to the hospital, and seeing technology revolutionise the experience of healthcare for both clinicians and patients. 
+JMO Digital is a community of clinicians across Australia with a shared interest in digital health, clinical informatics and health entrepreneurship. We are passionate about bringing a *startup philosophy* to the hospital, and seeing technology revolutionise the experience of healthcare for both clinicians and patients. 
 
 This group is open to JMOs, nurses, allied health professionals and technology professionals with a healthcare bent. 
 
@@ -19,8 +19,8 @@ ___
 ##Founding Team
 
 + [Martin Seneviratne]({{site.baseurl}}author/martin)
++ [Rahul Gokarn]({{site.baseurl}}author/rahul)
 + [Mark Santamaria]({{site.baseurl}}author/mark)
-
 ___
 
 ##Disclaimer
