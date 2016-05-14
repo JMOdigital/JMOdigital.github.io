@@ -8,7 +8,25 @@
     <title>JMO Digital</title>
     <link>http://jmodigital.com</link>
     <description>A network of training clinicians interested in digital health and entrepreneurship</description>
-    <pubDate>Fri, 22 Apr 2016 20:18:00 +1000</pubDate>
+    <pubDate>Thu, 12 May 2016 20:00:00 +1000</pubDate>
+    <item>
+      <title>Automating primary care - tricks and tricorders</title>
+      <link>http://jmodigital.com/automating-primary-care</link>
+      <description>&gt; The Tricorder Prize is a high-profile challenge that draws on the popular imagination of an all-in-one diagnostic toolkit in the palm of a hand. These devices stand to be an ally for general practitioners. Their utility will be not so much in spot diagnoses as in longitudinal tracking of chronic diseases, offering intelligent, personalised advice to patients in between doctor’s visits. 
+
+</description>
+      <pubDate>Thu, 12 May 2016 20:00:00 +1000</pubDate>
+      <dc:date>2016-05-12T20:00:00+10:00</dc:date>
+    </item>
+    <item>
+      <title>Innovations in healthcare - lessons from the private sector</title>
+      <link>http://jmodigital.com/innovations-in-healthcare-part-1</link>
+      <description>&gt;  Innovations in healthcare are in high demand, and with good reason. Our new editor **Rahul Gokarn** discusses in this 3 part series.
+
+</description>
+      <pubDate>Sun, 01 May 2016 20:00:00 +1000</pubDate>
+      <dc:date>2016-05-01T20:00:00+10:00</dc:date>
+    </item>
     <item>
       <title>A prescription to change</title>
       <link>http://jmodigital.com/eprescribing</link>
@@ -118,6 +136,6 @@ Each time junior doctors rotate terms, it can feel like starting from scratch. T
       <pubDate>Wed, 09 Dec 2015 21:18:00 +1100</pubDate>
       <dc:date>2015-12-09T21:18:00+11:00</dc:date>
     </item>
-    <dc:date>2016-04-22T20:18:00+10:00</dc:date>
+    <dc:date>2016-05-12T20:00:00+10:00</dc:date>
   </channel>
 </rss>

@@ -12,6 +12,41 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>Innovations in healthcare - lessons from the private sector</title>
+	  <link>//innovations-in-healthcare-part-1</link>
+	  <author>Martin Seneviratne</author>
+	  <pubDate>2016-05-01T20:00:00+10:00</pubDate>
+	  <guid>//innovations-in-healthcare-part-1</guid>
+	  <description><![CDATA[
+	     <blockquote>
+<p>Innovations in healthcare are in high demand, and with good reason. Our new editor <strong>Rahul Gokarn</strong> discusses in this 3 part series.</p>
+</blockquote>
+
+<p>Last week, Harvard Business Review (HBR) posted an article on <strong><a href="https://hbr.org/2016/04/making-predictive-analytics-a-routine-part-of-patient-care">using predictive analytics in patient care</a></strong>, Bloomberg discussed how <strong><a href="http://www.bloomberg.com/news/videos/2016-04-20/2015-was-record-year-for-health-care-deals">2015 was a record year for health-care deals</a></strong>, and Forbes released two articles on <strong><a href="http://www.forbes.com/sites/theapothecary/2016/04/13/digital-health-funding-defies-expectations/#35459e147bb5">digital health funding</a></strong> and <strong><a href="http://www.forbes.com/sites/paullamkin/2016/04/26/nokia-moves-into-digital-health-buying-withings-for-e170-million/#77e566044275">Nokia&#39;s move into digital health</a></strong>.</p>
+
+<p>With so much growth in the healthcare sector, particularly in digital health and tech investing, the search for innovation is clearly in high demand, and with good reason. The evolving challenges faced across the world in terms of ageing population bases, growing demand for access to quality healthcare, and rising costs associated with producing and distributing medications is creating a shift in sources of growth away from traditional organisations such as universities and hospitals, towards the private sector, where the majority of innovation, and investment is coming from.</p>
+
+<p><img src="https://cbi-blog.s3.amazonaws.com/blog/wp-content/uploads/2016/01/Digital-Health-Deals-and-Dollars-1.7.20164.png" alt="alt text">
+<sub>Image sourced from <a href="https://www.cbinsights.com/blog/digital-health-funding-2015/">CBInsights</a>[1].</sub></p>
+
+<p>For many of us working in healthcare, it is clear that innovations in digital health and technology have the potential to provide massive improvements not only to patient care, but also in improving efficiency and reducing redundancies faced by modern systems and practitioners. While this need for change is unequivocal, and most, if not all of us have ideas for improvement, it is easy to simply focus on the circadian cycles of working life and neglect the most important aspect of change – implementation. </p>
+
+<p>This is because innovation is much more complicated than just having an idea; initiating changes in healthcare can require a great deal of time and commitment, and more often than not, run into problems such as policy and regulatory issues, especially in large, well established systems like hospitals. Problems such as these have led to sluggish progress in the public sector, while the main sources of growth have been shifted to the private sector (big pharma, large scale tech companies such as Google, Apple, and IBM, healthcare startups, etc.) – but why is this the case?</p>
+
+<p>Perhaps the chief reason for this is the lack of entrepreneurial culture bred into the public healthcare system. The intolerance for failure, lack of funding, and high level of regulation has led many to simply accept the current system rather than face the challenges associated with implementing change. This is not a new problem, and in fact, this articlefrom the HBR archives in 2006 describes <strong><a href="https://hbr.org/2006/05/why-innovation-in-health-care-is-so-hard">why innovation is so difficult in healthcare</a></strong>, and outlines 6 forces that influence the success or failure of innovative ideas. What is interesting here is that these factors are not specific to health, but can be applied to a variety of industries and businesses, and perhaps this is why there has been such a push towards innovation coming out of the private sector, where issues such as lack of funding and policy are often avoided.</p>
+
+<p>What large public healthcare organisations are begining to understand is that in order to improve their systems, it is important to look for <em>innovative</em> solutions/technologies, rather than simply reallocate existing resources, or applying minor, incremental changes that rarely create meaningful change. In this way, healthcare organisations around the world, RPAH included, are taking lessons from the private sector and forming innovation committees to address these issues.</p>
+
+<hr>
+
+<p><em>For more information on any of the linked articles, or if you are interested in getting involved with JMO Digital or an innovations committee, please contact</em> <strong><em><a href="mailto:editor@jmodigital.com">editor@jmodigital.com</a></em></strong>.</p>
+
+<p><sub>[1] We in no way claim ownership/credit for the data presented in the above image - source: <a href="https://www.cbinsights.com/blog/digital-health-funding-2015/">CBInsights</a>.</sub></p>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>Wearables to detect pathology - Can that FitBit tell me something useful?</title>
 	  <link>//wearables-to-detect-pathology</link>
 	  <author>Martin Seneviratne</author>
