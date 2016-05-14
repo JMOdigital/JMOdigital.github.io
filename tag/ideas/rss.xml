@@ -19,10 +19,10 @@
 	  <guid>//automating-primary-care</guid>
 	  <description><![CDATA[
 	     <blockquote>
-<p>The Tricorder Prize is a high-profile challenge that draws on the popular imagination of an all-in-one diagnostic toolkit in the palm of a hand. These devices stand to be an ally for general practitioners. Their utility will be not so much in spot diagnoses as in longitudinal tracking of chronic diseases, offering intelligent, personalised advice to patients in between doctor’s visits. </p>
+<p>The Tricorder Prize has chanelled the imagination of med-tech entrepreneurs towards building an all-in-one diagnostic toolkit to fit in the palm of a hand. These devices stand to be an ally rather than a competitor for general practice. Their utility will be not so much in spot diagnoses as in longitudinal tracking of chronic diseases, offering intelligent, personalised advice to patients in between GP visits. </p>
 </blockquote>
 
-<p>The Tricorder X-Prize is an international innovation challenge promising US$10 million to the team who can crack the elegantly elusive problem of the &#39;tricorder&#39;. The tricorder is a device plucked from the realms of science fiction - a handheld health analyser originally featured in Star Trek which has the tri-functionality of sensing, computing and recording health. A little black box with a screen and detachable probe, the tricorder could sense vital signs, analyse bloodwork and thereby diagnose a range of medical conditions. Although it could send distress signals, the tricorder could not deliver treatment - it was a portable, easy-to-use diagnostic toolkit. </p>
+<p>The Tricorder X-Prize is an international innovation challenge promising US$10 million to the team who can crack the elegantly elusive problem of the &#39;tricorder&#39;. The tricorder is a device plucked from the realms of science fiction - a handheld health analyser originally featured in Star Trek which has the tri-functionality of <em>sensing, computing and recording</em> health. A little black box with a screen and detachable probe, the tricorder could sense vital signs, analyse bloodwork and thereby diagnose a range of medical conditions. Although it was able to send distress signals, the tricorder could not deliver treatment - it was a portable, easy-to-use diagnostic toolkit. </p>
 
 <p>Almost 50 years after this device appeared on television screens, the med-tech community has pounced upon it as a legitimate scientific goal. The $10m X-Prize was announced in 2011 and 7 teams are now in the running, with the winner to be announced in early 2017. The criteria have been laid down - the device must be able to diagnose the following 10 so-called &#39;Core Conditions&#39;:</p>
 
@@ -30,7 +30,7 @@
 <li>Anemia</li>
 <li>UTI</li>
 <li>Diabetes</li>
-<li>AF</li>
+<li>Atrial fibrillation</li>
 <li>Obstructive sleep apnoea</li>
 <li>COPD</li>
 <li>Pneumonia</li>
@@ -41,7 +41,7 @@
 
 <p>The 10th core condition - the absence of the other other 9 - is perhaps the most treacherous of them all if you read the fine print of the prize <a href="http://tricorder.xprize.org/about/guidelines">guidelines</a>. The gold standard that devices are held against to prove this null hypothesis is a very thorough workup indeed - test subjects undergo bloods, ECG, CXR, lung function tests, sleep apnoea tests and a brain MRI!</p>
 
-<p>Incidentally, this list is actually a less ambitious version of what was proposed in 2011 when the prize first launched. There were originally 3 further conditions required: hepatitis A, tuberculosis and stroke. For bonus points, there is an extra set of 12 conditions to grapple with including pertussis, hyperthyroidism and HIV.</p>
+<p>Incidentally, this list is actually a less ambitious version of what was proposed in 2011 when the prize first launched. There were originally 3 further conditions required: hepatitis A, tuberculosis and stroke. For bonus points, there is also an extra set of 12 &#39;elective conditions&#39; to grapple with including pertussis, hyperthyroidism and HIV.</p>
 
 <p>Devices must also be able to record 5 vital signs (blood pressure, HR and variability, temperature, respiratory rate and oxygen saturations), with a push towards continuous monitoring and upload to cloud storage. </p>
 
@@ -82,11 +82,11 @@
 
 <p>Imagine if the GP&#39;s decision about anti-hypertensive medications was informed by an accurate day-by-day trace of a patient&#39;s blood pressure over the last month, along with medication compliance, exercise levels and heart rate. We then move from trial-and-error medicine to tailored therapy. Imagine if the management of diabetes was informed by detailed BSL tracking, HbA1c levels and urine dipstick tests performed in a patient&#39;s home. Imagine if analgesia for chronic back pain was titrated in real time based on pain scores and side effect profile, just as it is for hospital inpatients. Imagine if cholesterol checks could be done in the household and subjects triaged to physicians accordingly. Primary care would be all the richer for it!</p>
 
-<p>At the very minimum, these sensing platforms could make primary care decision-making asynchronous: rather than a patient physically attending the GP, browsing through tattered copies of Women&#39;s Weekly in the waiting-room, sitting face to face and leaving with some advice, that same advice could be delivered electronically via a GP who reviews the health data at a time that suits them. </p>
+<p>At the very minimum, these sensing platforms could make primary care decision-making asynchronous: rather than a patient physically attending the GP, browsing through tattered copies of Women&#39;s Weekly in the waiting-room, sitting face-to-face and leaving with some advice, that same advice could be delivered electronically via a GP who reviews the health data at a time that suits them. </p>
 
 <p>However we can go one step further. The picture that is really taking shape is of an automated concierge for chronic disease management in the home, advising on medications and lifestyle modifications in real time between visits to the GP. Of the 10 most common GP-managed problems, almost all could be tracked in a semi-automated fashion with the kind of devices competing for the Tricorder Prize.  </p>
 
-<p>Primary care should not see these technologies as a rival, but as an ally. We are now at a critical fork in the road where we can build an ecosystem (including the regulatory and billing structures) to cater for semi-automated community medicine. And where private enterprises will be vying to get the automation right. As a medical profession, we should embrace these technologies and make them work for us, integrate them into our practice and extend our capacities, rather than undermine them as robotic competitors. </p>
+<p>Primary care should not see these technologies as a rival, but as an ally. We are now at a critical fork in the road where we can build an ecosystem (including the regulatory and billing structures) to cater for semi-automated community medicine. And where private enterprises will be vying to get the automation right. As a medical profession, we should embrace these technologies and make them work for us, integrate them into our practice and let them extend our capacities, rather than undermine them as robotic competitors. </p>
 
 	  ]]></description>
 	</item>
