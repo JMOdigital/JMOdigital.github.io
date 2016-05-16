@@ -24,6 +24,8 @@
 
 <p>The Tricorder X-Prize is an international innovation challenge promising US$10 million to the team who can crack the elegantly elusive problem of the &#39;tricorder&#39;. The tricorder is a device plucked from the realms of science fiction - a handheld health analyser originally featured in Star Trek which has the tri-functionality of <em>sensing, computing and recording</em> health. A little black box with a screen and detachable probe, the tricorder could sense vital signs, analyse bloodwork and thereby diagnose a range of medical conditions. Although it was able to send distress signals, the tricorder could not deliver treatment - it was a portable, easy-to-use diagnostic toolkit. </p>
 
+<p><img src="http://static1.squarespace.com/static/53f7a34ae4b0586eb80a3c09/53f7c78de4b04ee49aa2474a/53f7c78ee4b0572e56056d98/1408747411611/04a-trekmed_low.jpg" alt="Tricorder from Star Trek" title="Star Trek tricorder"></p>
+
 <p>Almost 50 years after this device appeared on television screens, the med-tech community has pounced upon it as a legitimate scientific goal. The $10m X-Prize was announced in 2011 and 7 teams are now in the running, with the winner to be announced in early 2017. The criteria have been laid down - the device must be able to diagnose the following 10 so-called &#39;Core Conditions&#39;:</p>
 
 <ul>
@@ -43,9 +45,9 @@
 
 <p>Incidentally, this list is actually a less ambitious version of what was proposed in 2011 when the prize first launched. There were originally 3 further conditions required: hepatitis A, tuberculosis and stroke. For bonus points, there is also an extra set of 12 &#39;elective conditions&#39; to grapple with including pertussis, hyperthyroidism and HIV.</p>
 
-<p>Devices must also be able to record 5 vital signs (blood pressure, HR and variability, temperature, respiratory rate and oxygen saturations), with a push towards continuous monitoring and upload to cloud storage. </p>
+<p>Devices must also be able to record 5 vital signs (blood pressure, heart rate and variability, temperature, respiratory rate and oxygen saturations), with a push towards continuous monitoring and upload to cloud storage. </p>
 
-<p>The 7 teams who remain in the running include 4 from the US and one each from Taiwan, Canada and India. The Canadian team <a href="http://www.clouddx.com/">CloudDx</a> have put forward the VITALITI platform - an app-based analytics tool that syncs with multiple sensors including a wireless otoscope and a microphone for analysing breath sounds. VITALITI also has brightly-coloured test sticks for samples of finger-prick blood, urine and saliva. </p>
+<p>The 7 teams who remain in the running include 4 from the US and one each from Taiwan, Canada and India. The Canadian team <a href="http://www.clouddx.com/">CloudDx</a> have put forward the VITALITI platform - an app-based analytics tool that syncs with multiple sensors including a wireless otoscope and a microphone for analysing breath sounds. VITALITI also has a range of test casettes for samples of finger-prick blood, urine and saliva. </p>
 
 <p><img src="http://www.clouddx.com/img/vitaliti_system.jpg" alt="VITALITI platform" title="VITALITI platform"></p>
 
@@ -55,22 +57,22 @@
 
 <p>Then there is Boston&#39;s <a href="http://www.dnamedinstitute.com/">DMI</a> team (DNA Medicine Institute), supported by the NIH and the Gates Foundation. They recently took out the smaller <a href="http://sensing.xprize.org/">Nokia Sensing X Prize</a> with their rHEALTH device - a miniaturised pathology lab able to perform 22 tests on a single drop of blood using microfluidics and laser spectrometry.</p>
 
-<p>Victory will be in the detail, but the skeleton of these ideas has already been sketched out. All of them involve a range of wireless sensing devices for vital signs and laboratory testing, linked to a software platform that recognizes trends and provides a diagnostic prediction.   </p>
+<p>Victory will be in the detail, but the skeleton of these ideas has already been sketched out. All of them involve a range of wireless sensing devices for vital signs and laboratory testing, linked to a software platform that recognises trends and provides a diagnostic prediction.   </p>
 
 <p>As these teams converge on an elegant solution, the question we have to grapple with is this: how would a tricorder-style diagnostic device actually interface with the delivery of healthcare? After all, it only solves one half of the equation: identifying a problem but not initiating treatment. One could argue that if you have diagnosed a UTI, taking the next step and suggesting appropriate antibiotic therapy for an uncomplicated patient is not a huge technical leap. But patients are rarely uncomplicated. And even if there are no objective medical complications, the psychosocial intricacies of healthcare mean that general practice and sensor technology will have to work hand in hand. </p>
 
-<p>This may not be such an odd coupling as some commentators, who prophesy the end of primary care with technological innovation, would have us believe. On the contrary, sensing technology might actually be the most useful tool for general practitioners in bringing efficiency to an increasingly overburdened primary healthcare system. </p>
+<p>This may not be such an odd coupling as some commentators, who prophesy the end of traditional primary care with technological innovation, would have us believe. On the contrary, sensing technology might actually be the most useful tool for general practitioners in bringing efficiency to an increasingly overburdened primary healthcare system. </p>
 
-<p>Let&#39;s consider the most frequent presentations in a GP clinic. <a href="http://www.racgp.org.au/afp/2013/januaryfebruary/common-general-practice-presentations/">Cooke <em>et al.</em></a> analysed almost 200,000 patient encounters from 2009-2010 using data from the <a href="http://sydney.edu.au/medicine/fmrc/beach/">BEACH program</a> to produce a list of the problems most frequency managed by general practitioners. Numbers 1-10 were: </p>
+<p>Let&#39;s consider the most frequent presentations to a GP clinic. <a href="http://www.racgp.org.au/afp/2013/januaryfebruary/common-general-practice-presentations/">Cooke <em>et al.</em></a> analysed almost 200,000 Australian patient encounters from 2009-2010 using data from the <a href="http://sydney.edu.au/medicine/fmrc/beach/">BEACH program</a> to produce a list of the problems most frequency managed by general practitioners. Numbers 1-10 were: </p>
 
 <ol>
 <li>Hypertension</li>
 <li>Immunisations/vaccinations</li>
-<li>Acute upper respiratory tract infection</li>
+<li>Acute upper respiratory tract infections</li>
 <li>Depression</li>
 <li>Diabetes</li>
 <li>Lipid disorders</li>
-<li>General checkup</li>
+<li>General checkups</li>
 <li>Osteoarthritis</li>
 <li>Back pain</li>
 <li>Prescription refilling</li>
@@ -78,11 +80,11 @@
 
 <p>This list is notably different from the Tricorder Prize&#39;s top-ten list of acute conditions. The only item on this list that would typically require a tricorder-style spot diagnosis would be acute upper respiratory tract infection. (<em>NB. Although it may be possible to diagnose a large majority of URTIs based on a history of coryzal symptoms and certain relevant negatives, a rigorous diagnosis would also mandate examination of the pharynx, lymph nodes, conjunctiva, ear canals and breath sounds which is more difficult (although not impossible) to replicate with machines.</em>)</p>
 
-<p>Apart from URTIs, almost all the other presentations relate to management of chronic conditions (with the exception of immunisations and general checkups). So the question of automating primary care is really one of automating chronic disease management. This is actually a domain where user-driven health tracking stands to be extremely useful. </p>
+<p>Apart from URTIs, almost all the other presentations relate to management of chronic conditions (perhaps with the exception of immunisations and general checkups). So the question of automating primary care is really one of automating chronic disease management. This is actually a domain where user-driven health tracking stands to be extremely useful. </p>
 
 <p>Imagine if the GP&#39;s decision about anti-hypertensive medications was informed by an accurate day-by-day trace of a patient&#39;s blood pressure over the last month, along with medication compliance, exercise levels and heart rate. We then move from trial-and-error medicine to tailored therapy. Imagine if the management of diabetes was informed by detailed BSL tracking, HbA1c levels and urine dipstick tests performed in a patient&#39;s home. Imagine if analgesia for chronic back pain was titrated in real time based on pain scores and side effect profile, just as it is for hospital inpatients. Imagine if cholesterol checks could be done in the household and subjects triaged to physicians accordingly. Primary care would be all the richer for it!</p>
 
-<p>At the very minimum, these sensing platforms could make primary care decision-making asynchronous: rather than a patient physically attending the GP, browsing through tattered copies of Women&#39;s Weekly in the waiting-room, sitting face-to-face and leaving with some advice, that same advice could be delivered electronically via a GP who reviews the health data at a time that suits them. </p>
+<p>At a minimum, these sensing platforms could make primary care decision-making asynchronous: rather than a patient physically attending the GP, browsing through tattered copies of Women&#39;s Weekly in the waiting-room, sitting face-to-face and leaving with some advice, that same advice could be delivered electronically via a GP who reviews the health data at a time that suits them. </p>
 
 <p>However we can go one step further. The picture that is really taking shape is of an automated concierge for chronic disease management in the home, advising on medications and lifestyle modifications in real time between visits to the GP. Of the 10 most common GP-managed problems, almost all could be tracked in a semi-automated fashion with the kind of devices competing for the Tricorder Prize.  </p>
 
