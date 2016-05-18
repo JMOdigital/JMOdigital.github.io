@@ -11,7 +11,7 @@
     nickname: 'mark'
     bio: 'Emergency physician and health informaticist'
     location: 'Melbourne, AU'
-    image: 'assets/images/casper.png'
+    image: 'assets/images/author_pics/jmo-digital-v2.png'
     
 -   name: Arran Schlosberg
     email: '@arranschlosberg'
@@ -32,14 +32,14 @@
     nickname: 'eric'
     bio: 'Resident medical officer and head of the Nepean Technology Group'
     location: 'Sydney, AU'
-    image: 'assets/images/cover6.jpg'
+    image: 'assets/images/author_pics/jmo-digital-v2.png'
     
 -   name: Sophie Dunkerton
     email: 'sophiedunkerton@hotmail.com'
     nickname: 'sophie'
     bio: 'Resident medical officer and leader of the Orange tablet deployment (iCare/WardConnect project)'
     location: 'Orange, AU'
-    image: 'assets/images/cover6.jpg'
+    image: 'assets/images/author_pics/jmo-digital-v2.png'
 
 -   name: Rahul Gokarn
     email: 'editor@jmodigital.com'
@@ -47,3 +47,10 @@
     bio: 'Junior Medical Officer @ RPA and PhD candidate, with experience in M&A and consulting, now serving as the editor for JMO Digital'
     location: 'Sydney, AU'
     image: 'assets/images/author_pics/rahul.jpg'
+    
+-   name: JMO Digital
+    email: 'editor@jmodigital.com'
+    nickname: 'JMOdigital'
+    bio: 'News and editorial content from the team at JMO Digital'
+    location: 'Sydney, AU'
+    image: 'assets/images/author_pics/jmo-digital-v2.png'

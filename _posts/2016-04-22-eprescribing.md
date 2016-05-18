@@ -3,8 +3,8 @@ layout: post
 cover: 'assets/images/tablet.jpg'
 title:  A prescription to change
 date:   2016-04-22 10:18:00
-tags: mHealth 
-subclass: 'post tag-mHealth'
+tags: mhealth 
+subclass: 'post tag-mhealth'
 categories: 'mark'
 navigation: True
 logo: 'assets/images/ghost.png'
