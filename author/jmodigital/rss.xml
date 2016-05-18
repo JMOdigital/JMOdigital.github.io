@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>jmodigital.com/</title>
+   
+   <link>http://jmodigital.com</link>
+   <description>A network of training clinicians interested in digital health and entrepreneurship</description>
+   <language>en-uk</language>
+   <managingEditor> Martin Seneviratne</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>HealtheNet</title>
+	  <link>//healthenet</link>
+	  <author>JMOdigital</author>
+	  <pubDate>2016-05-17T20:00:00+10:00</pubDate>
+	  <guid>//healthenet</guid>
+	  <description><![CDATA[
+	     <p>There is one question that sums up the frustration of afterhours ED shifts: </p>
+
+<blockquote>
+<p>&quot;You have my records on file right?&quot; </p>
+
+<p>&quot;Im afraid, sir, we don&#39;t actually have any details on file. I know you were recently at St Elsewhere down the road but we can actually only see records from the three hospitals in our network. And the medical records department at St Elsewhere just has an answering machine service so I can&#39;t get your records faxed across just yet. You wouldn&#39;t happen to have a copy of your discharge summary handy...?&quot;</p>
+</blockquote>
+
+<p>NSW Health is working on precisely this problem. </p>
+
+<p>eHealth has recently launched the <em>HealtheNet portal</em> - a novel system that allows clinicians to access data not available in their local hospital EMR! This includes clinical data from other NSW Health sites and the MyHealthRecord system. </p>
+
+<p>Check out an explanatory video <a href="http://bit.ly/23VGmU6">here</a>!</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
