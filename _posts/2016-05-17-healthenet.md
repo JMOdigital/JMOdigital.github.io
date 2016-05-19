@@ -5,10 +5,10 @@ title:  HealtheNet
 date: 2016-05-17 10:00:00
 tags: ehealth
 subclass: 'post tag-ehealth'
-categories: 'JMOdigital'
+categories: 'jmodigital'
 navigation: True
 logo: 'assets/images/ghost.png'
-author: JMOdigital
+author: jmodigital
 ---
 
 There is one question that sums up the frustration of afterhours ED shifts: 
