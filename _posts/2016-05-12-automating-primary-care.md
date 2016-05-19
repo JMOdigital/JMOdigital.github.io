@@ -38,7 +38,7 @@ Devices must also be able to record 5 vital signs (blood pressure, heart rate an
 
 The 7 teams who remain in the running include 4 from the US and one each from Taiwan, Canada and India. The Canadian team [CloudDx](http://www.clouddx.com/) have put forward the VITALITI platform - an app-based analytics tool that syncs with multiple sensors including a wireless otoscope and a microphone for analysing breath sounds. VITALITI also has a range of test casettes for samples of finger-prick blood, urine and saliva. 
 
-![VITALITI platform](http://www.clouddx.com/img/vitaliti_system.jpg "VITALITI platform")
+![VITALITI platform](assets/images/vitaliti.jpg "VITALITI platform")
 
 [Scanadu](https://www.scanadu.com/), based out of the NASA Ames Research Center in Silicon Valley, have already gone to market with an early prototype, the Scanadu Scout, which will detect vital signs and provide basic recommendations for US$199.  They are now developing more sophisticated consumer health trackers called Scanadu Vitals and Scanadu Urine. Intriguingly, they already publish large-scale deidentified data through their [Global Body Map]( https://www.scanadu.com/globalbodymap/), foreshadowing the potential for real-time population analytics of health metrics. 
 

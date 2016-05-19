@@ -28,6 +28,9 @@ permalink: /:title
 # permalink: /author/:username
 # permalink: /tag/:tag
 
+bitly: 
+    username: jmodigital
+    api_key: R_d4ca373c835c4bfda98ae47a11b1779a
 
 # gems and other configs
 gems: [jekyll-paginate]
