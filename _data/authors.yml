@@ -47,6 +47,13 @@
     bio: 'Junior Medical Officer @ RPA and PhD candidate, with experience in M&A and consulting, now serving as the editor for JMO Digital'
     location: 'Sydney, AU'
     image: 'assets/images/author_pics/rahul.jpg'
+
+-   name: Gaurav Sood
+    email: '@GauravInnovate'
+    nickname: 'gaurav'
+    bio: 'B.Eng/B.IT/MBA | Founder of HealthTech Sydney | Product and strategy expert for multiple digital health startups '
+    location: 'Sydney, AU'
+    image: 'assets/images/author_pics/gaurav.png'
     
 -   name: JMO Digital
     email: 'editor@jmodigital.com'
