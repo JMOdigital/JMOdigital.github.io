@@ -1,4 +1,14 @@
 
+-   name: Clinivid
+    description: 'Secure communication platform for AHPRA registered doctors that is aimed at making patient care coordination easy. Send imaging results as video with comments, take a picture of relevant skin lesions and share for a quick second opinion, have a chat about a complex case, know when someone is available and when not, assign different priorities to cases you share, get automatic reminder triggered depending on the priority levels ...'
+    position: 'iOS beta testers'
+    detail: 'Join our BETA program and share your thoughts for a lifetime of free use in return'
+    commitment: '1hr/week'
+    payment: 'volunteer'
+    contact: 'katja@clinivid.com.au'
+    website: 'http://www.clinivid.com.au'
+    image: 'assets/images/author_pics/jmo-digital-v2.png'
+
 -   name: WardConnect
     description: 'An app for interdisciplinary hospital ward rounds'
     position: 'Chief Technical Officer'
@@ -16,5 +26,5 @@
     commitment: '4hrs/week'
     payment: 'volunteer'
     contact: 'martin@jmodigital.com'
-    image: 'assets/images/ghost.png'
+    image: 'assets/images/author_pics/jmo-digital-v2.png'
     

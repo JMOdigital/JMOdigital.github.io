@@ -11,9 +11,15 @@ JMO Digital is a community of clinicians across Australia with a shared interest
 
 This group is open to JMOs, nurses, allied health professionals and technology professionals with a healthcare bent. 
 
-To find out more, or to contribute to the site, please get in touch  at  __<editor@jmodigital.com>__
+To find out more, or to contribute to the site, please get in touch  at  __<martin@jmodigital.com>__
 
+You can also request to join our [Facebook community](https://www.facebook.com/groups/1741132322771532/). 
 
+___
+
+##Disclaimer
+
+All views expressed in the site are personal views of the authors and in no way represent the positions of their hospitals or health districts.
 ___
 
 ##Founding Team
@@ -22,12 +28,6 @@ ___
 + [Rahul Gokarn]({{site.baseurl}}author/rahul)
 + [Mark Santamaria]({{site.baseurl}}author/mark)
 
-
-___
-
-##Disclaimer
-
-All views expressed in the site are personal views of the authors and in no way represent the positions of their hospitals or health districts.
 ___
 
 <sup>
