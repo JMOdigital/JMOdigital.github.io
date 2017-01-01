@@ -53,7 +53,7 @@
     <link rel="alternate" type="application/rss+xml" title="JMO Digital" href="/rss.xml" />
 
 </head>
-<body class="tag-template nav-closed">
+<body class="paged archive-template nav-closed">
 
     <div class="nav">
     <h3 class="nav-title">Menu</h3>
@@ -62,9 +62,9 @@
         <span class="hidden">Close</span>
     </a>
     <ul>
-        <li class="nav-home " role="presentation"><a href="/">Home</a></li>
+        <li class="nav-home  nav-current" role="presentation"><a href="/">Home</a></li>
         <li class="nav-about " role="presentation"><a href="/about">About</a></li>
-        <li class="nav-ideas  nav-current" role="presentation"><a href="/tag/ideas">Ideas Board</a></li>
+        <li class="nav-ideas " role="presentation"><a href="/tag/ideas">Ideas Board</a></li>
         <li class="nav-ideas " role="presentation"><a href="/tag/coding">Coding tutorials</a></li>
         <li class="nav-contributor " role="presentation"><a href="/contributors">Contributors</a></li>
         <li class="nav-opportunities " role="presentation"><a href="/opportunities">Opportunities</a></li>
@@ -100,18 +100,12 @@
     <div class="site-wrapper">
 
         <!-- [[! Everything else gets inserted here ]] -->
-        <!-- < dynamically overriding backgrounds for tags as well as descriptions -->
-
-
-    
-    
-
-
-<!-- < default}} -->
+        <!-- < default -->
 <!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
-<!-- If we have a tag cover, display that - else blog cover - else nothing -->
-<header class="main-header tag-head " style="background-image: url(/assets/images/cover8.jpg) ">
+<!-- The big featured header  -->
+<header class="main-header "
+        style="background-image: url(/assets/images/cover9.jpg) ">
     <nav class="main-nav overlay clearfix">
         <a class="blog-logo" href="/"><img src="/assets/images/ghost.png" alt="Blog Logo" /></a>
         
@@ -120,14 +114,11 @@
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
-            <h1 class="page-title">Ideas</h1>
-            <h2 class="page-description">
-            
-                Virtual brainstorming
-            
-            </h2>
+            <h1 class="page-title">JMO Digital</h1>
+            <h2 class="page-description">A network of training clinicians interested in digital health and entrepreneurship</h2>
         </div>
     </div>
+    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
 <!-- The main content area on the homepage -->
@@ -139,113 +130,17 @@
         
             <nav class="pagination" role="pagination">
     
-    <span class="page-number"> Page 1 of 1 </span>
+        
+            <a class="newer-posts" href="/page2/" title="Previous Page">&laquo; Newer Posts</a>
+      
+    
+    <span class="page-number"> Page 3 of 3 </span>
      
 </nav>
         
     </div>
 
     <!-- This is the post loop - each post will be output using this markup -->
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/automating-primary-care">Automating primary care - tricks and tricorders</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>The Tricorder Prize has chanelled the imagination of med-tech entrepreneurs towards building an all-in-one diagnostic toolkit to fit in the palm of a hand. These devices... <a class="read-more" href="/automating-primary-care">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-        
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    		
-            <img class="author-thumb" src="/assets/images/author_pics/martin.jpg" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href="/author/martin"'>Martin Seneviratne</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/tag/ideas'>Ideas</a>
-                       
-                
-            
-            <time class="post-date" datetime="2016-05-12">12 May 2016</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/innovations-in-healthcare-part-1">Innovations in healthcare - lessons from the private sector</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>Innovations in healthcare are in high demand, and with good reason. Our new editor Rahul Gokarn discusses in this 3 part series. Last week, Harvard Business... <a class="read-more" href="/innovations-in-healthcare-part-1">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-        
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    		
-            <img class="author-thumb" src="/assets/images/author_pics/rahul.jpg" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href="/author/rahul"'>Rahul Gokarn</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/tag/ideas'>Ideas</a>,
-                       
-                
-                    
-                       <a href='/tag/data'>Data</a>,
-                       
-                
-                    
-                       <a href='/tag/mhealth'>Mhealth</a>
-                       
-                
-            
-            <time class="post-date" datetime="2016-05-01">01 May 2016</time>
-        </footer>
-    </article>
     
     <article class="post">
         <header class="post-header">
@@ -302,13 +197,18 @@
     
         <nav class="pagination" role="pagination">
     
-    <span class="page-number"> Page 1 of 1 </span>
+        
+            <a class="newer-posts" href="/page2/" title="Previous Page">&laquo; Newer Posts</a>
+      
+    
+    <span class="page-number"> Page 3 of 3 </span>
      
 </nav>
     
 
 
 </main>
+
 
         <footer class="site-footer clearfix">
           <section class="copyright"><a href="/">JMO Digital</a> &copy; 2017</section>

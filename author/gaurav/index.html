@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- [[! Page Meta ]] -->
-    <title>JMO Digital</title>
+    <title>Author</title>
     <meta name="description" content="JMO Digital - A network of training clinicians interested in digital health and entrepreneurship" />
 
     <meta name="HandheldFriendly" content="True" />
@@ -53,7 +53,7 @@
     <link rel="alternate" type="application/rss+xml" title="JMO Digital" href="/rss.xml" />
 
 </head>
-<body class="tag-template nav-closed">
+<body class="author-template nav-closed">
 
     <div class="nav">
     <h3 class="nav-title">Menu</h3>
@@ -64,7 +64,7 @@
     <ul>
         <li class="nav-home " role="presentation"><a href="/">Home</a></li>
         <li class="nav-about " role="presentation"><a href="/about">About</a></li>
-        <li class="nav-ideas  nav-current" role="presentation"><a href="/tag/ideas">Ideas Board</a></li>
+        <li class="nav-ideas " role="presentation"><a href="/tag/ideas">Ideas Board</a></li>
         <li class="nav-ideas " role="presentation"><a href="/tag/coding">Coding tutorials</a></li>
         <li class="nav-contributor " role="presentation"><a href="/contributors">Contributors</a></li>
         <li class="nav-opportunities " role="presentation"><a href="/opportunities">Opportunities</a></li>
@@ -100,40 +100,68 @@
     <div class="site-wrapper">
 
         <!-- [[! Everything else gets inserted here ]] -->
-        <!-- < dynamically overriding backgrounds for tags as well as descriptions -->
-
-
-    
-    
-
-
-<!-- < default}} -->
+        <!-- < default}} -->
 <!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
-<!-- If we have a tag cover, display that - else blog cover - else nothing -->
-<header class="main-header tag-head " style="background-image: url(/assets/images/cover8.jpg) ">
-    <nav class="main-nav overlay clearfix">
-        <a class="blog-logo" href="/"><img src="/assets/images/ghost.png" alt="Blog Logo" /></a>
-        
-            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
-        
-    </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">Ideas</h1>
-            <h2 class="page-description">
+<!-- The big featured header -->
+
+<!-- Everything inside the #author tags pulls data from the author -->
+<!-- #author  -->
+
+    <header class="main-header author-head " style="background-image: url(/assets/images/cover4.jpg) ">
+        <nav class="main-nav overlay clearfix">
+            <a class="blog-logo" href="/"><img src="/assets/images/ghost.png" alt="Blog Logo" /></a>
             
-                Virtual brainstorming
+                <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
             
-            </h2>
+        </nav>
+    </header>
+
+    <section class="author-profile inner">
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+        
+        <figure class="author-image">
+            <div class="img" style="background-image: url(/assets/images/author_pics/gaurav.png)"><span class="hidden">Martin Seneviratne's Picture</span></div>
+        </figure>
+        
+        <h1 class="author-title">Gaurav Sood</h1>
+        
+            <h2 class="author-bio">B.Eng/B.IT/MBA | Founder of HealthTech Sydney | Product and strategy expert for multiple digital health startups </h2>
+        
+        <div class="author-meta">
+            <span class="author-location icon-location">Sydney, AU</span>
+            
+            <!-- <span class="author-stats"><i class="icon-stats"></i> [[plural ../pagination.total empty='No posts' singular='% post' plural='% posts']]</span> -->
+            <span class="author-stats"><i class="icon-stats"></i>1 post</span>
         </div>
-    </div>
-</header>
+    </section>
+<!-- /author -->
 
 <!-- The main content area on the homepage -->
 <main id="content" class="content" role="main">
 
-    <!-- The tag below includes the post loop - partials/loop.hbs -->
+    <!-- The tag below includes the post loop - partials/loop.hbs  -->
         <!-- Previous/next page links - only displayed on page 2+ -->
     <div class="extra-pagination inner">
         
@@ -149,10 +177,10 @@
     
     <article class="post">
         <header class="post-header">
-            <h2 class="post-title"><a href="/automating-primary-care">Automating primary care - tricks and tricorders</a></h2>
+            <h2 class="post-title"><a href="/health-innovation">Lessons from leading a digital health innovation community</a></h2>
         </header>
         <section class="post-excerpt">
-            <p>The Tricorder Prize has chanelled the imagination of med-tech entrepreneurs towards building an all-in-one diagnostic toolkit to fit in the palm of a hand. These devices... <a class="read-more" href="/automating-primary-care">&raquo;</a></p>
+            <p>HealthTech Sydney is a leading innovation community for healthcare technology that aims to improve education and accelerate commercialisation of ideas in healthcare. HealthTech Sydney connects players... <a class="read-more" href="/health-innovation">&raquo;</a></p>
         </section>
         <footer class="post-meta">
         
@@ -177,123 +205,19 @@
     	
     	
     		
-            <img class="author-thumb" src="/assets/images/author_pics/martin.jpg" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="/assets/images/author_pics/gaurav.png" alt="Author image" nopin="nopin" />
             <!-- author -->
-            <a href="/author/martin"'>Martin Seneviratne</a>
+            <a href="/author/gaurav"'>Gaurav Sood</a>
             <!-- [[tags prefix=" on "]] -->
              
                 on 
                 
                     
-                       <a href='/tag/ideas'>Ideas</a>
+                       <a href='/tag/innovation'>Innovation</a>
                        
                 
             
-            <time class="post-date" datetime="2016-05-12">12 May 2016</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/innovations-in-healthcare-part-1">Innovations in healthcare - lessons from the private sector</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>Innovations in healthcare are in high demand, and with good reason. Our new editor Rahul Gokarn discusses in this 3 part series. Last week, Harvard Business... <a class="read-more" href="/innovations-in-healthcare-part-1">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-        
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    		
-            <img class="author-thumb" src="/assets/images/author_pics/rahul.jpg" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href="/author/rahul"'>Rahul Gokarn</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/tag/ideas'>Ideas</a>,
-                       
-                
-                    
-                       <a href='/tag/data'>Data</a>,
-                       
-                
-                    
-                       <a href='/tag/mhealth'>Mhealth</a>
-                       
-                
-            
-            <time class="post-date" datetime="2016-05-01">01 May 2016</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/what-if-hospitals-ran-like-apple">What if hospitals were run by Apple</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>The experience of presenting to the Apple Store Genius Bar might carry some important lessons for hospital workflows. Martin Seneviratne explains why. I recently had a... <a class="read-more" href="/what-if-hospitals-ran-like-apple">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-        
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    		
-            <img class="author-thumb" src="/assets/images/author_pics/martin.jpg" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href="/author/martin"'>Martin Seneviratne</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/tag/ideas'>Ideas</a>,
-                       
-                
-                    
-                       <a href='/tag/mHealth'>Mhealth</a>
-                       
-                
-            
-            <time class="post-date" datetime="2016-02-01">01 Feb 2016</time>
+            <time class="post-date" datetime="2016-11-01">01 Nov 2016</time>
         </footer>
     </article>
     
@@ -309,6 +233,7 @@
 
 
 </main>
+
 
         <footer class="site-footer clearfix">
           <section class="copyright"><a href="/">JMO Digital</a> &copy; 2017</section>

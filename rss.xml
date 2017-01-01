@@ -8,7 +8,16 @@
     <title>JMO Digital</title>
     <link>http://jmodigital.com</link>
     <description>A network of training clinicians interested in digital health and entrepreneurship</description>
-    <pubDate>Tue, 17 May 2016 20:00:00 +1000</pubDate>
+    <pubDate>Tue, 01 Nov 2016 21:00:00 +1100</pubDate>
+    <item>
+      <title>Lessons from leading a digital health innovation community</title>
+      <link>http://jmodigital.com/health-innovation</link>
+      <description>&gt; [HealthTech Sydney](http://www.healthtechsydney.com.au/) is a leading innovation community for healthcare technology that aims to improve education and accelerate commercialisation of ideas in healthcare. HealthTech Sydney connects players from research, medicine, biotechnology, and healthcare with technology, entrepreneurship, design and business to grow and support innovation in health.
+
+</description>
+      <pubDate>Tue, 01 Nov 2016 21:00:00 +1100</pubDate>
+      <dc:date>2016-11-01T21:00:00+11:00</dc:date>
+    </item>
     <item>
       <title>HealtheNet</title>
       <link>http://jmodigital.com/healthenet</link>
@@ -105,6 +114,6 @@ Each time junior doctors rotate terms, it can feel like starting from scratch. T
       <pubDate>Mon, 01 Feb 2016 21:18:00 +1100</pubDate>
       <dc:date>2016-02-01T21:18:00+11:00</dc:date>
     </item>
-    <dc:date>2016-05-17T20:00:00+10:00</dc:date>
+    <dc:date>2016-11-01T21:00:00+11:00</dc:date>
   </channel>
 </rss>
