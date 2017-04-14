@@ -12,10 +12,66 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>It's not just an App?!</title>
+	  <link>//digital-health-survey</link>
+	  <author>Martin Seneviratne</author>
+	  <pubDate>2017-04-14T03:00:00-07:00</pubDate>
+	  <guid>//digital-health-survey</guid>
+	  <description><![CDATA[
+	     <p>Across the digital health industry globally, there is so much innovation going on, it is hard to keep up. From across Australia, India, Europe and USA, I have been fortunate to meet a few of these entrepreneurs and work with a couple.</p>
+
+<p>While there are a range of incubators, co-working spaces, accelerators, meetups, news sites, and communities that have popped up, my research on Australia&#39;s Digital Health Ecosystem shows a <em>significant gap</em> in what is publicly known. In the past few years I&#39;ve catalogued &#39;Australian-owned&#39; companies that I&#39;ve encountered in this field, and have a list of over 100 in this sector. Here&#39;s one of my graphs on the industry. It is obviously not a 100% capture of the industry due to my own limited reach.</p>
+
+<p><img src="/assets/images/Histogram.png" alt="Australian Digital Health" title="Digital health landscape in Australia"> </p>
+
+<p>This graph concentrates on companies with <em>enabling</em> technologies rather than services, (ie. diet, education, exercise, outreach &amp; wellness programs are not included).</p>
+
+<h3>The Ecosystem Data Gap</h3>
+
+<p>I sought out to find what else is published on Australia’s Digital Health ecosystem and started at AusBiotech’s pages. Most companies on the directory are obviously pharma or biotech companies, consultancies, industry associations and universities. If you remove all the global (read non-Australian brands), you get a shortlist of a few actual Australian companies.</p>
+
+<p>Looking at BiotechGate’s database, out of categories such as Pharma, Medical Device, Non-profit, Consulting, I selected what is usually an acronym for Digital Health (i.e. HealthTech). From the total 842 database of Australian companies, I found 41 Digital Health companies, and 63 MedTech companies. So a massive gap exists in ecosystem coverage.</p>
+
+<p>There doesn’t seem to be a real reason for ‘Digital Health’ companies to be part of AusBiotech or MTAA. This could be that the value of this membership to small companies in this sector is not clear. It is also because these startups are accessing customer segments via channels that are new to the health industry. In fact, there is no strong ecosystem for digital health ventures to seed and grow in Australia.</p>
+
+<p>Unfortunately, I’ve also experienced the response from some industry executives that digital health is the ‘lesser’ industry. Is this true? Is it as simple as it seems? That it is just B2C, is not clinical, or is an easy mobile app.</p>
+
+<p>Yes, Uber is also just a mobile app, and is simply killing the market in more industries than one, potentially to enter into healthcare soon. Such a response is well placed to kill fledgling digital health companies that could potentially become world-class platforms, that are highly scalable, covering geographies around the world and improving experience through a combination of analytics, health and devices.</p>
+
+<blockquote>
+<p>&quot;Digital Health is any technology that digitises human, medical, biological, or health information.&quot;</p>
+</blockquote>
+
+<h3>What is Digital Health?</h3>
+
+<p>There is an FDA <a href="https://www.fda.gov/medicaldevices/digitalhealth/">definition</a>. However, I like to simplify it to “Digital Health as any technology that digitises human, medical, biological, or health information.”</p>
+
+<p>It doesn’t matter if it leads to an educational product, a care service, a device with software, an analytics or research platform, a biomarker or genetic coding, an algorithm, a middleware integration tool, or an API. It is Digital Health. So if you’re still unsure, look no further than the reports on the industry from CBInsights, StartupHealth or RockHealth.</p>
+
+<p>Yes, Cochlear implants, my friend, are a Digital Health product too :-)</p>
+
+<h3>The Australian Digital Health Ecosystem Survey</h3>
+
+<p>I embarked upon improving the digital health ecosystem a few years ago through HealthTech Sydney, doing over 26 industry seminars. I’m passionate about this space. This survey is to capture the current state of the ecosystem and publish it for general use. </p>
+
+<p><em>If you are in Digital Health, I’d love to know you.</em> This is a comprehensive survey to understand the needs in this industry and how we can make it more successful. Your 3-5min will guide development of innovation capability in this industry.</p>
+
+<h4>Survey: <a href="https://goo.gl/forms/IG3KbW17QtPeSyuq1">Australian Digital Health Company Survey</a></h4>
+
+<p>Survey ends on May 24th. Results will be published on <a href="http://www.healthtechsydney.com.au/blog">HealthTech Sydney</a>, on LinkedIn and other related channels in June. You can subscribe to HealthTech Sydney <a href="http://eepurl.com/bQyhrD">here</a>.</p>
+
+<p>Thanks!</p>
+
+<p><em>Disclaimer: I am doing this survey as an independent evangelist in this industry.</em></p>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>Lessons from leading a digital health innovation community</title>
 	  <link>//health-innovation</link>
 	  <author>Martin Seneviratne</author>
-	  <pubDate>2016-11-01T21:00:00+11:00</pubDate>
+	  <pubDate>2016-11-01T03:00:00-07:00</pubDate>
 	  <guid>//health-innovation</guid>
 	  <description><![CDATA[
 	     <blockquote>
