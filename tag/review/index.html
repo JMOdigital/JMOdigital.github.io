@@ -53,7 +53,7 @@
     <link rel="alternate" type="application/rss+xml" title="JMO Digital" href="/rss.xml" />
 
 </head>
-<body class="home-template nav-closed">
+<body class="tag-template nav-closed">
 
     <div class="nav">
     <h3 class="nav-title">Menu</h3>
@@ -62,7 +62,7 @@
         <span class="hidden">Close</span>
     </a>
     <ul>
-        <li class="nav-home  nav-current" role="presentation"><a href="/">Home</a></li>
+        <li class="nav-home " role="presentation"><a href="/">Home</a></li>
         <li class="nav-about " role="presentation"><a href="/about">About</a></li>
         <li class="nav-ideas " role="presentation"><a href="/tag/ideas">Ideas Board</a></li>
         <li class="nav-ideas " role="presentation"><a href="/tag/coding">Coding tutorials</a></li>
@@ -100,12 +100,15 @@
     <div class="site-wrapper">
 
         <!-- [[! Everything else gets inserted here ]] -->
-        <!-- < default -->
+        <!-- < dynamically overriding backgrounds for tags as well as descriptions -->
+
+
+
+<!-- < default}} -->
 <!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
-<!-- The big featured header  -->
-<header class="main-header "
-        style="background-image: url(/assets/images/cover9.jpg) ">
+<!-- If we have a tag cover, display that - else blog cover - else nothing -->
+<header class="main-header tag-head " style="background-image: url(/assets/images/cover9.jpg) ">
     <nav class="main-nav overlay clearfix">
         <a class="blog-logo" href="/"><img src="/assets/images/ghost.png" alt="Blog Logo" /></a>
         
@@ -114,11 +117,14 @@
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
-            <h1 class="page-title">JMO Digital</h1>
-            <h2 class="page-description">A network of training clinicians interested in digital health and entrepreneurship</h2>
+            <h1 class="page-title">Review</h1>
+            <h2 class="page-description">
+            
+			    A 1-post collection
+            
+            </h2>
         </div>
     </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
 <!-- The main content area on the homepage -->
@@ -130,9 +136,7 @@
         
             <nav class="pagination" role="pagination">
     
-    <span class="page-number"> Page 1 of 3 </span>
-     
-        <a class="older-posts" href="/page2/" title="Next Page">Older Posts &raquo;</a>
+    <span class="page-number"> Page 1 of 1 </span>
      
 </nav>
         
@@ -185,205 +189,18 @@
         </footer>
     </article>
     
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/digital-health-survey">Australian Digital Health Ecosystem Survey</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>Across the digital health industry globally, there is so much innovation going on, it is hard to keep up. From across Australia, India, Europe and USA,... <a class="read-more" href="/digital-health-survey">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-        
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    		
-            <img class="author-thumb" src="/assets/images/author_pics/gaurav.png" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href="/author/gaurav"'>Gaurav Sood</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/tag/innovation'>Innovation</a>
-                       
-                
-            
-            <time class="post-date" datetime="2017-04-14">14 Apr 2017</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/health-innovation">Lessons from leading a digital health innovation community</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>HealthTech Sydney is a leading innovation community for healthcare technology that aims to improve education and accelerate commercialisation of ideas in healthcare. HealthTech Sydney connects players... <a class="read-more" href="/health-innovation">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-        
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    		
-            <img class="author-thumb" src="/assets/images/author_pics/gaurav.png" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href="/author/gaurav"'>Gaurav Sood</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/tag/innovation'>Innovation</a>
-                       
-                
-            
-            <time class="post-date" datetime="2016-11-01">01 Nov 2016</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/healthenet">HealtheNet</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>There is one question that sums up the frustration of afterhours ED shifts: &quot;You have my records on file right?&quot; &quot;Im afraid, sir, we don&#39;t actually... <a class="read-more" href="/healthenet">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-        
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    		
-            <img class="author-thumb" src="/assets/images/author_pics/jmo-digital-v2.png" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href="/author/jmodigital"'>JMO Digital</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/tag/ehealth'>Ehealth</a>
-                       
-                
-            
-            <time class="post-date" datetime="2016-05-17">17 May 2016</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/automating-primary-care">Automating primary care - tricks and tricorders</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>The Tricorder Prize has chanelled the imagination of med-tech entrepreneurs towards building an all-in-one diagnostic toolkit to fit in the palm of a hand. These devices... <a class="read-more" href="/automating-primary-care">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-        
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    		
-            <img class="author-thumb" src="/assets/images/author_pics/martin.jpg" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href="/author/martin"'>Martin Seneviratne</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/tag/ideas'>Ideas</a>
-                       
-                
-            
-            <time class="post-date" datetime="2016-05-12">12 May 2016</time>
-        </footer>
-    </article>
-    
 
     <!-- Previous/next page links - displayed on every page -->
     
         <nav class="pagination" role="pagination">
     
-    <span class="page-number"> Page 1 of 3 </span>
-     
-        <a class="older-posts" href="/page2/" title="Next Page">Older Posts &raquo;</a>
+    <span class="page-number"> Page 1 of 1 </span>
      
 </nav>
     
 
 
 </main>
-
 
         <footer class="site-footer clearfix">
           <section class="copyright"><a href="/">JMO Digital</a> &copy; 2017</section>

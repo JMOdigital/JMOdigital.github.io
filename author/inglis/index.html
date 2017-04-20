@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- [[! Page Meta ]] -->
-    <title>JMO Digital</title>
+    <title>Author</title>
     <meta name="description" content="JMO Digital - A network of training clinicians interested in digital health and entrepreneurship" />
 
     <meta name="HandheldFriendly" content="True" />
@@ -53,7 +53,7 @@
     <link rel="alternate" type="application/rss+xml" title="JMO Digital" href="/rss.xml" />
 
 </head>
-<body class="tag-template nav-closed">
+<body class="author-template nav-closed">
 
     <div class="nav">
     <h3 class="nav-title">Menu</h3>
@@ -100,37 +100,60 @@
     <div class="site-wrapper">
 
         <!-- [[! Everything else gets inserted here ]] -->
-        <!-- < dynamically overriding backgrounds for tags as well as descriptions -->
-
-
-
-<!-- < default}} -->
+        <!-- < default}} -->
 <!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
-<!-- If we have a tag cover, display that - else blog cover - else nothing -->
-<header class="main-header tag-head " style="background-image: url(/assets/images/cover9.jpg) ">
-    <nav class="main-nav overlay clearfix">
-        <a class="blog-logo" href="/"><img src="/assets/images/ghost.png" alt="Blog Logo" /></a>
-        
-            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
-        
-    </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">Innovation</h1>
-            <h2 class="page-description">
+<!-- The big featured header -->
+
+<!-- Everything inside the #author tags pulls data from the author -->
+<!-- #author  -->
+
+    <header class="main-header author-head " style="background-image: url(/assets/images/cover4.jpg) ">
+        <nav class="main-nav overlay clearfix">
+            <a class="blog-logo" href="/"><img src="/assets/images/ghost.png" alt="Blog Logo" /></a>
             
-			    A 3-post collection
+                <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
             
-            </h2>
+        </nav>
+    </header>
+
+    <section class="author-profile inner">
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+        
+        <h1 class="author-title"></h1>
+        
+        <div class="author-meta">
+            
+            
+            <!-- <span class="author-stats"><i class="icon-stats"></i> [[plural ../pagination.total empty='No posts' singular='% post' plural='% posts']]</span> -->
+            <span class="author-stats"><i class="icon-stats"></i>1 post</span>
         </div>
-    </div>
-</header>
+    </section>
+<!-- /author -->
 
 <!-- The main content area on the homepage -->
 <main id="content" class="content" role="main">
 
-    <!-- The tag below includes the post loop - partials/loop.hbs -->
+    <!-- The tag below includes the post loop - partials/loop.hbs  -->
         <!-- Previous/next page links - only displayed on page 2+ -->
     <div class="extra-pagination inner">
         
@@ -189,98 +212,6 @@
         </footer>
     </article>
     
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/digital-health-survey">Australian Digital Health Ecosystem Survey</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>Across the digital health industry globally, there is so much innovation going on, it is hard to keep up. From across Australia, India, Europe and USA,... <a class="read-more" href="/digital-health-survey">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-        
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    		
-            <img class="author-thumb" src="/assets/images/author_pics/gaurav.png" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href="/author/gaurav"'>Gaurav Sood</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/tag/innovation'>Innovation</a>
-                       
-                
-            
-            <time class="post-date" datetime="2017-04-14">14 Apr 2017</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/health-innovation">Lessons from leading a digital health innovation community</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>HealthTech Sydney is a leading innovation community for healthcare technology that aims to improve education and accelerate commercialisation of ideas in healthcare. HealthTech Sydney connects players... <a class="read-more" href="/health-innovation">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-        
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    		
-            <img class="author-thumb" src="/assets/images/author_pics/gaurav.png" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href="/author/gaurav"'>Gaurav Sood</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/tag/innovation'>Innovation</a>
-                       
-                
-            
-            <time class="post-date" datetime="2016-11-01">01 Nov 2016</time>
-        </footer>
-    </article>
-    
 
     <!-- Previous/next page links - displayed on every page -->
     
@@ -293,6 +224,7 @@
 
 
 </main>
+
 
         <footer class="site-footer clearfix">
           <section class="copyright"><a href="/">JMO Digital</a> &copy; 2017</section>
