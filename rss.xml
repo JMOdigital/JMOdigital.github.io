@@ -10,7 +10,7 @@
     <description>A network of training clinicians interested in digital health and entrepreneurship</description>
     <pubDate>Tue, 18 Apr 2017 03:00:00 -0700</pubDate>
     <item>
-      <title>Book Review- The Creative Destruction of Medicine by Eric Topol</title>
+      <title>The Creative Destruction of Healthcare by Eric Topol - a call to arms for innovators</title>
       <link>http://jmodigital.com/destruction-of-medicine</link>
       <description>&gt; How will the phenotype of a doctor change in a new health landscape dominated by technology?
 
@@ -35,6 +35,16 @@
 </description>
       <pubDate>Tue, 01 Nov 2016 03:00:00 -0700</pubDate>
       <dc:date>2016-11-01T03:00:00-07:00</dc:date>
+    </item>
+    <item>
+      <title>Building a health calculator with Google Polymers</title>
+      <link>http://jmodigital.com/coding-tutorial</link>
+      <description>&gt; Adapted from the *Coding 101* workshop delivered at the 2015 Future Health Leaders Conference in Sydney. 
+&gt; Thanks to Kevin Gleason (@kevinagleason) for his Polymer ToDo tutorial, which provided some inspiration. Some of the app layouts have been drawn from his code under the provisions of the MIT license. 
+
+</description>
+      <pubDate>Wed, 22 Jun 2016 03:18:00 -0700</pubDate>
+      <dc:date>2016-06-22T03:18:00-07:00</dc:date>
     </item>
     <item>
       <title>HealtheNet</title>
@@ -98,16 +108,6 @@ The market for wrist based activity monitors has been booming in recent years an
       <title>How to safeguard the privacy of Australian health data in the cloud</title>
       <link>http://jmodigital.com/privacy-health-data</link>
       <description>I once sat across from a doctor and stated that the only safe way to manage archival health data is in the cloud. As a consultant physician, I did not expect her retort to be *but what about the Patriot Act?* The Patriot Act is a now-replaced piece of American legislation that had far-reaching effects, with the [US Department of Justice laying claim to data stored by American companies?even overseas](http://www.theguardian.com/technology/2015/sep/09/microsoft-court-case-hotmail-ireland-search-warrant).
-
-</description>
-      <pubDate>Mon, 22 Feb 2016 02:18:00 -0800</pubDate>
-      <dc:date>2016-02-22T02:18:00-08:00</dc:date>
-    </item>
-    <item>
-      <title>Building a health calculator with Google Polymers</title>
-      <link>http://jmodigital.com/polymer-coding-tutorial</link>
-      <description>&gt; Adapted from the *Coding 101* workshop delivered at the 2015 Future Health Leaders Conference in Sydney. 
-&gt; Thanks to Kevin Gleason (@kevinagleason) for his Polymer ToDo tutorial, which provided some inspiration. Some of the app layouts have been drawn from his code under the provisions of the MIT license. 
 
 </description>
       <pubDate>Mon, 22 Feb 2016 02:18:00 -0800</pubDate>
