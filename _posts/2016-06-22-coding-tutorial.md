@@ -2,13 +2,14 @@
 layout: post
 cover: 'assets/images/polymers.jpg'
 title:  Building a health calculator with Google Polymers
-date:   2016-02-22 10:18:00
+date:   2016-06-22 10:18:00
 tags: coding
 subclass: 'post tag-coding'
-categories: 'martin'
+categories: martin
 navigation: True
 logo: 'assets/images/ghost.png'
 author: martin
+disqus: False
 ---
 
 
@@ -267,7 +268,5 @@ ___
 
 ###Conclusion
 Congratulations. Now it's time to play around with your new app. You can build in more features like charts, maps and tables using the ever-growing catalogue of Polymer elements. Read more about these elements [here](https://elements.polymer-project.org/). You can even design your own reusable elements to incorporate into further web development projects - this is the future of modular web development! 
-
-
 
 

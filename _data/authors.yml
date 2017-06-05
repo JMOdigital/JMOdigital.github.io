@@ -54,10 +54,18 @@
     bio: 'B.Eng/B.IT/MBA | Founder of HealthTech Sydney | Product and strategy expert for multiple digital health startups '
     location: 'Sydney, AU'
     image: 'assets/images/author_pics/gaurav.png'
-    
+
+-   name: Josh Inglis
+    email: '@inglisjosh'
+    nickname: 'inglis'
+    bio: 'Intern at the Queen Elizabeth Hospital. Aspiring physician with interests in the health innovation, disruptive technologies and policy.'
+    location: 'Adelaide, AU'
+    image: 'assets/images/author_pics/josh.jpg'
+
 -   name: JMO Digital
     email: 'editor@jmodigital.com'
     nickname: 'jmodigital'
     bio: 'News and editorial content from the team at JMO Digital'
     location: 'Sydney, AU'
     image: 'assets/images/author_pics/jmo-digital-v2.png'
+
